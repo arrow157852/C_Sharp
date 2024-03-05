@@ -35,12 +35,12 @@
             button4 = new Button();
             button5 = new Button();
             dataGridView1 = new DataGridView();
-            comboBox1 = new ComboBox();
+            cbtabela = new ComboBox();
             textBox1 = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            tbid = new TextBox();
+            tbdescricao = new TextBox();
+            tbvalor = new TextBox();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
@@ -86,6 +86,7 @@
             button3.Text = "Salvar";
             button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -121,14 +122,14 @@
             dataGridView1.Size = new Size(811, 196);
             dataGridView1.TabIndex = 5;
             // 
-            // comboBox1
+            // cbtabela
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Mão de obra", "Material", "Diversos" });
-            comboBox1.Location = new Point(15, 111);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 6;
+            cbtabela.FormattingEnabled = true;
+            cbtabela.Items.AddRange(new object[] { "Mão de obra", "Material", "Diversos" });
+            cbtabela.Location = new Point(15, 111);
+            cbtabela.Name = "cbtabela";
+            cbtabela.Size = new Size(121, 23);
+            cbtabela.TabIndex = 6;
             // 
             // textBox1
             // 
@@ -147,26 +148,26 @@
             label1.TabIndex = 8;
             label1.Text = "Consulta";
             // 
-            // textBox2
+            // tbid
             // 
-            textBox2.Location = new Point(15, 196);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(47, 23);
-            textBox2.TabIndex = 9;
+            tbid.Location = new Point(15, 196);
+            tbid.Name = "tbid";
+            tbid.Size = new Size(47, 23);
+            tbid.TabIndex = 9;
             // 
-            // textBox3
+            // tbdescricao
             // 
-            textBox3.Location = new Point(80, 196);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(635, 23);
-            textBox3.TabIndex = 10;
+            tbdescricao.Location = new Point(80, 196);
+            tbdescricao.Name = "tbdescricao";
+            tbdescricao.Size = new Size(635, 23);
+            tbdescricao.TabIndex = 10;
             // 
-            // textBox4
+            // tbvalor
             // 
-            textBox4.Location = new Point(777, 198);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(49, 23);
-            textBox4.TabIndex = 11;
+            tbvalor.Location = new Point(777, 198);
+            tbvalor.Name = "tbvalor";
+            tbvalor.Size = new Size(49, 23);
+            tbvalor.TabIndex = 11;
             // 
             // label2
             // 
@@ -205,12 +206,12 @@
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
+            Controls.Add(tbvalor);
+            Controls.Add(tbdescricao);
+            Controls.Add(tbid);
             Controls.Add(label1);
             Controls.Add(textBox1);
-            Controls.Add(comboBox1);
+            Controls.Add(cbtabela);
             Controls.Add(dataGridView1);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -232,12 +233,12 @@
         private Button button4;
         private Button button5;
         private DataGridView dataGridView1;
-        private ComboBox comboBox1;
+        private ComboBox cbtabela;
         private TextBox textBox1;
         private Label label1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox tbid;
+        private TextBox tbdescricao;
+        private TextBox tbvalor;
         private Label label2;
         private Label label3;
         private Label label4;

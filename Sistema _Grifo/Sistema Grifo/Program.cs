@@ -1,4 +1,4 @@
-using Sistema_Grifo.controle;
+
 
 namespace Sistema_Grifo
 {
@@ -13,7 +13,7 @@ namespace Sistema_Grifo
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            ConexaoGeral.Conexao();
+            
             Application.Run(new Form1());
             
         }

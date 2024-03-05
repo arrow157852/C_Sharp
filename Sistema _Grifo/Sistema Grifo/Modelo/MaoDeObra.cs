@@ -10,7 +10,7 @@ namespace Sistema_Grifo.Modelo
     {
         public int cargosID { get; set; }
         public String Nome_cargo { get; set; }
-        public Double valor_cargo { get; set; }
+        public float valor_cargo { get; set; }
 
         public int CategoriaID { get; set; }
     }

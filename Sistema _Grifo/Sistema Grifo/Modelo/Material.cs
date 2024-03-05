@@ -8,9 +8,9 @@ namespace Sistema_Grifo.Modelo
 {
     internal class Material
     {
-        public int material { get; set;}
-        public  String valor_unidade { get; set; }
-        public Double id { get; set; }
+        public String material { get; set;}
+        public   float valor_unidade { get; set; }
+        public int id { get; set; }
 
         public int CategoriaID {  get; set; }
 

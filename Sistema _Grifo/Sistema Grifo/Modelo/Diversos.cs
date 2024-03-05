@@ -10,7 +10,7 @@ namespace Sistema_Grifo.Modelo
     {
         public int CustoID { get; set; }
         public String Descricao { get; set; }
-        public Double valor_diversos { get; set; }
+        public float valor_diversos { get; set; }
 
         public int CategoriaID { get; set; }
     }
