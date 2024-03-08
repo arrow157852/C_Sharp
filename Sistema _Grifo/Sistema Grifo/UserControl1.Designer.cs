@@ -29,114 +29,122 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl1));
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            dataGridView1 = new DataGridView();
+            bnovo = new Button();
+            balterar = new Button();
+            bsalvar = new Button();
+            bexcluir = new Button();
+            bcancelar = new Button();
+            dgvconsulta = new DataGridView();
             cbtabela = new ComboBox();
-            textBox1 = new TextBox();
+            tbconsulta = new TextBox();
             label1 = new Label();
             tbid = new TextBox();
             tbdescricao = new TextBox();
-            tbvalor = new TextBox();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            label5 = new Label();
+            numericUpDown1 = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)dgvconsulta).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // bnovo
             // 
-            button1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(15, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(126, 54);
-            button1.TabIndex = 0;
-            button1.Text = " Novo";
-            button1.TextAlign = ContentAlignment.MiddleRight;
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            bnovo.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bnovo.Image = (Image)resources.GetObject("bnovo.Image");
+            bnovo.ImageAlign = ContentAlignment.MiddleLeft;
+            bnovo.Location = new Point(15, 3);
+            bnovo.Name = "bnovo";
+            bnovo.Size = new Size(126, 54);
+            bnovo.TabIndex = 0;
+            bnovo.Text = " Novo";
+            bnovo.TextAlign = ContentAlignment.MiddleRight;
+            bnovo.UseVisualStyleBackColor = true;
+            bnovo.Click += bnovo_Click;
             // 
-            // button2
+            // balterar
             // 
-            button2.Font = new Font("Century Gothic", 12F);
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(147, 3);
-            button2.Name = "button2";
-            button2.Size = new Size(126, 54);
-            button2.TabIndex = 1;
-            button2.Text = "Alterar";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = true;
+            balterar.Font = new Font("Century Gothic", 12F);
+            balterar.Image = (Image)resources.GetObject("balterar.Image");
+            balterar.ImageAlign = ContentAlignment.MiddleLeft;
+            balterar.Location = new Point(147, 3);
+            balterar.Name = "balterar";
+            balterar.Size = new Size(126, 54);
+            balterar.TabIndex = 1;
+            balterar.Text = "Alterar";
+            balterar.TextAlign = ContentAlignment.MiddleRight;
+            balterar.UseVisualStyleBackColor = true;
+            balterar.Click += button2_Click;
             // 
-            // button3
+            // bsalvar
             // 
-            button3.Font = new Font("Century Gothic", 12F);
-            button3.Image = (Image)resources.GetObject("button3.Image");
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(279, 3);
-            button3.Name = "button3";
-            button3.Size = new Size(126, 54);
-            button3.TabIndex = 2;
-            button3.Text = "Salvar";
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            bsalvar.Font = new Font("Century Gothic", 12F);
+            bsalvar.Image = (Image)resources.GetObject("bsalvar.Image");
+            bsalvar.ImageAlign = ContentAlignment.MiddleLeft;
+            bsalvar.Location = new Point(279, 3);
+            bsalvar.Name = "bsalvar";
+            bsalvar.Size = new Size(126, 54);
+            bsalvar.TabIndex = 2;
+            bsalvar.Text = "Salvar";
+            bsalvar.TextAlign = ContentAlignment.MiddleRight;
+            bsalvar.UseVisualStyleBackColor = true;
+            bsalvar.Click += button3_Click;
             // 
-            // button4
+            // bexcluir
             // 
-            button4.Font = new Font("Century Gothic", 12F);
-            button4.Image = (Image)resources.GetObject("button4.Image");
-            button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(484, 3);
-            button4.Name = "button4";
-            button4.Size = new Size(126, 54);
-            button4.TabIndex = 3;
-            button4.Text = "Excluir";
-            button4.TextAlign = ContentAlignment.MiddleRight;
-            button4.UseVisualStyleBackColor = true;
+            bexcluir.Font = new Font("Century Gothic", 12F);
+            bexcluir.Image = (Image)resources.GetObject("bexcluir.Image");
+            bexcluir.ImageAlign = ContentAlignment.MiddleLeft;
+            bexcluir.Location = new Point(484, 3);
+            bexcluir.Name = "bexcluir";
+            bexcluir.Size = new Size(126, 54);
+            bexcluir.TabIndex = 3;
+            bexcluir.Text = "Excluir";
+            bexcluir.TextAlign = ContentAlignment.MiddleRight;
+            bexcluir.UseVisualStyleBackColor = true;
+            bexcluir.Click += bexcluir_Click;
             // 
-            // button5
+            // bcancelar
             // 
-            button5.Font = new Font("Century Gothic", 12F);
-            button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(616, 3);
-            button5.Name = "button5";
-            button5.Size = new Size(126, 54);
-            button5.TabIndex = 4;
-            button5.Text = "Cancelar";
-            button5.TextAlign = ContentAlignment.MiddleRight;
-            button5.UseVisualStyleBackColor = true;
+            bcancelar.Font = new Font("Century Gothic", 12F);
+            bcancelar.Image = (Image)resources.GetObject("bcancelar.Image");
+            bcancelar.ImageAlign = ContentAlignment.MiddleLeft;
+            bcancelar.Location = new Point(616, 3);
+            bcancelar.Name = "bcancelar";
+            bcancelar.Size = new Size(126, 54);
+            bcancelar.TabIndex = 4;
+            bcancelar.Text = "Cancelar";
+            bcancelar.TextAlign = ContentAlignment.MiddleRight;
+            bcancelar.UseVisualStyleBackColor = true;
+            bcancelar.Click += bcancelar_Click;
             // 
-            // dataGridView1
+            // dgvconsulta
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(15, 307);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(811, 196);
-            dataGridView1.TabIndex = 5;
+            dgvconsulta.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvconsulta.Location = new Point(15, 307);
+            dgvconsulta.Name = "dgvconsulta";
+            dgvconsulta.Size = new Size(811, 196);
+            dgvconsulta.TabIndex = 5;
+            dgvconsulta.CellContentClick += dgvconsulta_CellContentClick;
             // 
             // cbtabela
             // 
             cbtabela.FormattingEnabled = true;
             cbtabela.Items.AddRange(new object[] { "Mão de obra", "Material", "Diversos" });
-            cbtabela.Location = new Point(15, 111);
+            cbtabela.Location = new Point(15, 110);
             cbtabela.Name = "cbtabela";
-            cbtabela.Size = new Size(121, 23);
+            cbtabela.Size = new Size(133, 23);
             cbtabela.TabIndex = 6;
+            cbtabela.SelectedIndexChanged += cbtabela_SelectedIndexChanged;
             // 
-            // textBox1
+            // tbconsulta
             // 
-            textBox1.Location = new Point(101, 259);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(725, 23);
-            textBox1.TabIndex = 7;
+            tbconsulta.Location = new Point(101, 259);
+            tbconsulta.Name = "tbconsulta";
+            tbconsulta.Size = new Size(725, 23);
+            tbconsulta.TabIndex = 7;
+            tbconsulta.TextChanged += tbconsulta_TextChanged;
             // 
             // label1
             // 
@@ -162,13 +170,6 @@
             tbdescricao.Size = new Size(635, 23);
             tbdescricao.TabIndex = 10;
             // 
-            // tbvalor
-            // 
-            tbvalor.Location = new Point(777, 198);
-            tbvalor.Name = "tbvalor";
-            tbvalor.Size = new Size(49, 23);
-            tbvalor.TabIndex = 11;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -193,54 +194,82 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Century Gothic", 12F);
-            label4.Location = new Point(721, 198);
+            label4.Location = new Point(721, 172);
             label4.Name = "label4";
             label4.Size = new Size(50, 21);
             label4.TabIndex = 14;
             label4.Text = "Valor";
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.CausesValidation = false;
+            label5.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(15, 83);
+            label5.Name = "label5";
+            label5.Size = new Size(133, 21);
+            label5.TabIndex = 15;
+            label5.Text = "Tipo de Registro";
+            // 
+            // numericUpDown1
+            // 
+            numericUpDown1.DecimalPlaces = 2;
+            numericUpDown1.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            numericUpDown1.Location = new Point(721, 196);
+            numericUpDown1.Maximum = new decimal(new int[] { 1316134911, 2328, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(105, 23);
+            numericUpDown1.TabIndex = 16;
+            numericUpDown1.Tag = "";
+            numericUpDown1.TextAlign = HorizontalAlignment.Center;
+            // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(numericUpDown1);
+            Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(tbvalor);
             Controls.Add(tbdescricao);
             Controls.Add(tbid);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(tbconsulta);
             Controls.Add(cbtabela);
-            Controls.Add(dataGridView1);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(dgvconsulta);
+            Controls.Add(bcancelar);
+            Controls.Add(bexcluir);
+            Controls.Add(bsalvar);
+            Controls.Add(balterar);
+            Controls.Add(bnovo);
             Name = "UserControl1";
             Size = new Size(840, 523);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += UserControl1_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvconsulta).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private DataGridView dataGridView1;
+        private Button bnovo;
+        private Button balterar;
+        private Button bsalvar;
+        private Button bexcluir;
+        private Button bcancelar;
+        private DataGridView dgvconsulta;
         private ComboBox cbtabela;
-        private TextBox textBox1;
+        private TextBox tbconsulta;
         private Label label1;
         private TextBox tbid;
         private TextBox tbdescricao;
-        private TextBox tbvalor;
+       
         private Label label2;
         private Label label3;
         private Label label4;
+        private Label label5;
+        public NumericUpDown numericUpDown1;
     }
 }
