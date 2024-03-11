@@ -48,6 +48,8 @@
             label5 = new Label();
             rbdescidas = new RadioButton();
             gbspda = new GroupBox();
+            label14 = new Label();
+            nudpcaptor = new NumericUpDown();
             cbnp = new ComboBox();
             label13 = new Label();
             rbcaptor = new RadioButton();
@@ -75,6 +77,7 @@
             ((System.ComponentModel.ISupportInitialize)nudaltura).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudperimetro).BeginInit();
             gbspda.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudpcaptor).BeginInit();
             gbaterramento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudpontos).BeginInit();
             gblaudo.SuspendLayout();
@@ -200,16 +203,16 @@
             // 
             nudaltura.DecimalPlaces = 2;
             nudaltura.Font = new Font("Century Gothic", 9.75F);
-            nudaltura.Location = new Point(5, 108);
+            nudaltura.Location = new Point(106, 104);
             nudaltura.Name = "nudaltura";
-            nudaltura.Size = new Size(61, 23);
+            nudaltura.Size = new Size(75, 23);
             nudaltura.TabIndex = 25;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(1, 84);
+            label3.Location = new Point(106, 80);
             label3.Name = "label3";
             label3.Size = new Size(20, 21);
             label3.TabIndex = 26;
@@ -219,7 +222,7 @@
             // 
             nudperimetro.DecimalPlaces = 2;
             nudperimetro.Font = new Font("Century Gothic", 9.75F);
-            nudperimetro.Location = new Point(7, 47);
+            nudperimetro.Location = new Point(2, 47);
             nudperimetro.Name = "nudperimetro";
             nudperimetro.Size = new Size(87, 23);
             nudperimetro.TabIndex = 27;
@@ -228,7 +231,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(10, 23);
+            label4.Location = new Point(3, 23);
             label4.Name = "label4";
             label4.Size = new Size(84, 21);
             label4.TabIndex = 28;
@@ -237,7 +240,7 @@
             // rbaterramento
             // 
             rbaterramento.AutoSize = true;
-            rbaterramento.Location = new Point(162, 177);
+            rbaterramento.Location = new Point(151, 174);
             rbaterramento.Name = "rbaterramento";
             rbaterramento.Size = new Size(90, 19);
             rbaterramento.TabIndex = 30;
@@ -249,7 +252,7 @@
             // 
             cbmaterial.FormattingEnabled = true;
             cbmaterial.Items.AddRange(new object[] { "Barra chata", "Cobre", "Rebar", "Cordoalha" });
-            cbmaterial.Location = new Point(3, 177);
+            cbmaterial.Location = new Point(106, 47);
             cbmaterial.Name = "cbmaterial";
             cbmaterial.Size = new Size(135, 23);
             cbmaterial.TabIndex = 31;
@@ -259,7 +262,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(3, 153);
+            label5.Location = new Point(106, 23);
             label5.Name = "label5";
             label5.Size = new Size(75, 21);
             label5.TabIndex = 32;
@@ -268,7 +271,7 @@
             // rbdescidas
             // 
             rbdescidas.AutoSize = true;
-            rbdescidas.Location = new Point(162, 108);
+            rbdescidas.Location = new Point(68, 174);
             rbdescidas.Name = "rbdescidas";
             rbdescidas.Size = new Size(70, 19);
             rbdescidas.TabIndex = 33;
@@ -278,6 +281,8 @@
             // 
             // gbspda
             // 
+            gbspda.Controls.Add(label14);
+            gbspda.Controls.Add(nudpcaptor);
             gbspda.Controls.Add(cbnp);
             gbspda.Controls.Add(label13);
             gbspda.Controls.Add(cbmaterial);
@@ -291,18 +296,37 @@
             gbspda.Controls.Add(rbcaptor);
             gbspda.Location = new Point(3, 128);
             gbspda.Name = "gbspda";
-            gbspda.Size = new Size(258, 231);
+            gbspda.Size = new Size(258, 215);
             gbspda.TabIndex = 34;
             gbspda.TabStop = false;
             gbspda.Text = "SPDA";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.Location = new Point(3, 78);
+            label14.Name = "label14";
+            label14.Size = new Size(80, 21);
+            label14.TabIndex = 39;
+            label14.Text = "P/captor";
+            // 
+            // nudpcaptor
+            // 
+            nudpcaptor.DecimalPlaces = 2;
+            nudpcaptor.Font = new Font("Century Gothic", 9.75F);
+            nudpcaptor.Location = new Point(2, 104);
+            nudpcaptor.Name = "nudpcaptor";
+            nudpcaptor.Size = new Size(87, 23);
+            nudpcaptor.TabIndex = 38;
             // 
             // cbnp
             // 
             cbnp.FormattingEnabled = true;
             cbnp.Items.AddRange(new object[] { "1", "2", "3", "4" });
-            cbnp.Location = new Point(72, 108);
+            cbnp.Location = new Point(187, 104);
             cbnp.Name = "cbnp";
-            cbnp.Size = new Size(46, 23);
+            cbnp.Size = new Size(54, 23);
             cbnp.TabIndex = 37;
             cbnp.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
@@ -310,7 +334,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.Location = new Point(72, 83);
+            label13.Location = new Point(187, 79);
             label13.Name = "label13";
             label13.Size = new Size(31, 21);
             label13.TabIndex = 36;
@@ -319,7 +343,7 @@
             // rbcaptor
             // 
             rbcaptor.AutoSize = true;
-            rbcaptor.Location = new Point(162, 47);
+            rbcaptor.Location = new Point(3, 174);
             rbcaptor.Name = "rbcaptor";
             rbcaptor.Size = new Size(59, 19);
             rbcaptor.TabIndex = 29;
@@ -406,7 +430,7 @@
             gblaudo.Controls.Add(cbedificacao);
             gblaudo.Controls.Add(label10);
             gblaudo.Controls.Add(label11);
-            gblaudo.Location = new Point(270, 263);
+            gblaudo.Location = new Point(270, 247);
             gblaudo.Name = "gblaudo";
             gblaudo.Size = new Size(315, 96);
             gblaudo.TabIndex = 36;
@@ -561,6 +585,7 @@
             ((System.ComponentModel.ISupportInitialize)nudperimetro).EndInit();
             gbspda.ResumeLayout(false);
             gbspda.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudpcaptor).EndInit();
             gbaterramento.ResumeLayout(false);
             gbaterramento.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudpontos).EndInit();
@@ -617,5 +642,7 @@
         private RadioButton rbcaptor;
         private Label label13;
         private ComboBox cbnp;
+        private NumericUpDown nudpcaptor;
+        private Label label14;
     }
 }

@@ -1,7 +1,10 @@
-﻿using Sistema_Grifo.contexto;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
+using Sistema_Grifo.contexto;
 using Sistema_Grifo.Modelo;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,45 +18,96 @@ namespace Sistema_Grifo.Calculadora
     {
         AppDbcontext context = new AppDbcontext();
         UserControl2 u = new UserControl2();
-        float alturaSpda = (float)u.PublicNudAltura.Value;
-        var descidas = 0;
-        var anelDeEquilibrio = 0;
-         switch (int.Parse(u.PublicCbnp.Text))
-            
-                case 1:
-                case 2:
-                    descidas = (int) perimetroSpda / 10;
-        anelDeEquilibrio = (int) perimetroSpda / 10;
-
-                    break;
-                case 3:
-                    descidas = (int) perimetroSpda / 15;
-        anelDeEquilibrio = (int) perimetroSpda / 15;
-                    break;
-                case 4:
-                    descidas = (int) perimetroSpda / 20;
-        anelDeEquilibrio = (int) perimetroSpda / 20;
-                    break;
-        
-            
-
-        private void Captor()
-        {
-            
-
-
+        private void descidas() {
             float perimetroSpda = (float)u.PublicNudPerimetro.Value;
+            float alturaSpda = (float)u.PublicNudAltura.Value;
+            string material = u.PublicCbMaterial.Text;
+            var descidas = 0;
+            var anelDeEquilibrio = 0;
+            int publicCbnpValue = int.Parse(u.PublicCbnp.Text);
+
+            if (publicCbnpValue == 1 || publicCbnpValue == 2)
+            {
+                descidas = (int)perimetroSpda / 12;
+                anelDeEquilibrio = (int)perimetroSpda / 10;
+            }
+            else if (publicCbnpValue == 3)
+            {
+                descidas = (int)perimetroSpda / 18;
+                anelDeEquilibrio = (int)perimetroSpda / 15;
+            }
+            else if (publicCbnpValue == 4)
+            {
+                descidas = (int)perimetroSpda / 24;
+                anelDeEquilibrio = (int)perimetroSpda / 20;
+            }
 
 
-           
+            if (material == "Barra chata" )
+            {
+                int barraChatasdecidas = (int)((alturaSpda/6)*descidas);
+                int barraChatasanel = (int)(anelDeEquilibrio * (perimetroSpda / 6));
+                int parafusoDe6mm = (int)((barraChatasanel + barraChatasdecidas) * 8);
+                
+                
+            }
+            else if (material == "cobre")
+            {
+                int cobre = (int)(perimetrocaptor + (perimetrocaptor * 0.2));
+
+            }
+            else if (material == "cobre")
+            {
+                int cobre = (int)(perimetrocaptor + (perimetrocaptor * 0.2));
+
+            }
+            else if (material == "cobre")
+            {
+                int cobre = (int)(perimetrocaptor + (perimetrocaptor * 0.2));
+
+            }
+
 
         }
 
 
+        private void Captor()
+        {
+            string  material = u.PublicCbMaterial.Text;
+            float perimetroSpda = (float)u.PublicNudPerimetro.Value;
+            float perimetrocaptor = (float)u.PublicNudPcaptor.Value;
 
 
 
+            if (material == "Barra chata"|| material == "Cordoalha"|| material == "Rebar")
+            {
+                int barraChatas = (int)perimetrocaptor / 6;
+                int miniMastro = (int)perimetroSpda / 5;
+                int mastro = 1;
+                int vedaCalha = (int)(perimetrocaptor * 0.03);
+                int parafusoDe6mm = barraChatas * 8;
+            }
+            else if (material == "Cobre")
+            {
+                int cobre = (int)(perimetrocaptor + (perimetrocaptor * 0.2));
+                int afastador = cobre;
+                int mastro = 1;
+                int vedaCalha = (int)(perimetrocaptor * 0.03);
+                int parafusoDe6mm = cobre; 
+            }
+            
+
+
+
+
+
+        }
+
+
+        
     }
+
+
 }
 
 

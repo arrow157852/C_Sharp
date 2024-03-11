@@ -96,6 +96,15 @@ namespace Sistema_Grifo
         {
             get { return cbnp; }
         }
+        public ComboBox PublicCbMaterial
+        {
+            get { return cbmaterial; }
+        }
+
+        public NumericUpDown PublicNudPcaptor
+        {
+            get { return nudpcaptor; }
+        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
