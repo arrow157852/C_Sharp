@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sistema_Grifo.Calculadora;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,12 +15,15 @@ namespace Sistema_Grifo
 {
     public partial class UserControl2 : System.Windows.Forms.UserControl
     {
+        Calculos calc = new Calculos();
+        Consulta consulta = new Consulta();
         public UserControl2()
         {
             InitializeComponent();
             gbspda.Enabled = false;
             gblaudo.Enabled = false;
             gbaterramento.Enabled = false;
+
 
         }
 
@@ -77,38 +81,51 @@ namespace Sistema_Grifo
 
         }
 
-        public ComboBox PublicCbservico
-        {
-            get { return cbservico; }
-        }
-
-        public NumericUpDown PublicNudAltura
-        {
-            get { return nudaltura; }
-        }
-
-        public NumericUpDown PublicNudPerimetro
-        {
-            get { return nudperimetro; }
-        }
-
-        public ComboBox PublicCbnp
-        {
-            get { return cbnp; }
-        }
-        public ComboBox PublicCbMaterial
-        {
-            get { return cbmaterial; }
-        }
-
-        public NumericUpDown PublicNudPcaptor
-        {
-            get { return nudpcaptor; }
-        }
-
+        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void rbaterramento_CheckedChanged(object sender, EventArgs e)
+        {
+            calc.aterramento();
+        }
+
+        private void rbdescidas_CheckedChanged(object sender, EventArgs e)
+        {
+            calc.descidas();
+        }
+
+        private void rbcaptor_CheckedChanged(object sender, EventArgs e)
+        {
+            calc.Captor();
+        }
+
+        private void cbtab_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            consulta.consultarDados();
+
+        }
+
+        private void tbconsulta_TextChanged(object sender, EventArgs e)
+        {
+            consulta.consultarDados();
+        }
+
+        private void UserControl2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvconsulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cbtab_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            consulta.consultarDados();
         }
     }
 }

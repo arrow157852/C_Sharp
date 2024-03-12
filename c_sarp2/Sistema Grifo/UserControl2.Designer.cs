@@ -73,6 +73,8 @@
             label12 = new Label();
             label9 = new Label();
             button4 = new Button();
+            cbtabela = new Label();
+            cbtab = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvconsulta).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudaltura).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudperimetro).BeginInit();
@@ -170,6 +172,7 @@
             tbconsulta.Name = "tbconsulta";
             tbconsulta.Size = new Size(269, 23);
             tbconsulta.TabIndex = 19;
+            tbconsulta.TextChanged += tbconsulta_TextChanged;
             // 
             // dgvconsulta
             // 
@@ -178,6 +181,7 @@
             dgvconsulta.Name = "dgvconsulta";
             dgvconsulta.Size = new Size(219, 426);
             dgvconsulta.TabIndex = 18;
+            dgvconsulta.CellContentClick += dgvconsulta_CellContentClick;
             // 
             // cbservico
             // 
@@ -247,6 +251,7 @@
             rbaterramento.TabStop = true;
             rbaterramento.Text = "aterramento";
             rbaterramento.UseVisualStyleBackColor = true;
+            rbaterramento.CheckedChanged += rbaterramento_CheckedChanged;
             // 
             // cbmaterial
             // 
@@ -278,6 +283,7 @@
             rbdescidas.TabStop = true;
             rbdescidas.Text = "descidas";
             rbdescidas.UseVisualStyleBackColor = true;
+            rbdescidas.CheckedChanged += rbdescidas_CheckedChanged;
             // 
             // gbspda
             // 
@@ -350,6 +356,7 @@
             rbcaptor.TabStop = true;
             rbcaptor.Text = "captor";
             rbcaptor.UseVisualStyleBackColor = true;
+            rbcaptor.CheckedChanged += rbcaptor_CheckedChanged;
             // 
             // gbaterramento
             // 
@@ -556,10 +563,32 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // cbtabela
+            // 
+            cbtabela.AutoSize = true;
+            cbtabela.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cbtabela.Location = new Point(194, 74);
+            cbtabela.Name = "cbtabela";
+            cbtabela.Size = new Size(64, 21);
+            cbtabela.TabIndex = 42;
+            cbtabela.Text = "Tabela";
+            // 
+            // cbtab
+            // 
+            cbtab.FormattingEnabled = true;
+            cbtab.Items.AddRange(new object[] { "Material", "Mão de obra", "Diversos", "tabelaTemporaria" });
+            cbtab.Location = new Point(194, 99);
+            cbtab.Name = "cbtab";
+            cbtab.Size = new Size(67, 23);
+            cbtab.TabIndex = 43;
+            cbtab.SelectedIndexChanged += cbtab_SelectedIndexChanged_1;
+            // 
             // UserControl2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(cbtab);
+            Controls.Add(cbtabela);
             Controls.Add(button4);
             Controls.Add(label9);
             Controls.Add(label12);
@@ -580,6 +609,7 @@
             Controls.Add(bnovo);
             Name = "UserControl2";
             Size = new Size(840, 523);
+            Load += UserControl2_Load;
             ((System.ComponentModel.ISupportInitialize)dgvconsulta).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudaltura).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudperimetro).EndInit();
@@ -606,43 +636,45 @@
         private Button balterar;
         private Button bnovo;
         private Label label1;
-        private TextBox tbconsulta;
-        private DataGridView dgvconsulta;
-        private ComboBox cbservico;
         private Label label2;
-        private NumericUpDown nudaltura;
         private Label label3;
-        private NumericUpDown nudperimetro;
         private Label label4;
-        private RadioButton rbaterramento;
-        private ComboBox cbmaterial;
         private Label label5;
-        private RadioButton rbdescidas;
         private GroupBox gbspda;
         private GroupBox gbaterramento;
-        private ComboBox cbmaterialAterramento;
-        private NumericUpDown nudpontos;
         private Label label6;
         private Label label7;
         private Label label8;
-        private ComboBox cbarranjo;
         private GroupBox gblaudo;
-        private ComboBox cbedificacao;
         private Label label10;
         private Label label11;
-        private ComboBox cbtipo;
-        private NumericUpDown nudquantidade;
-        private NumericUpDown nudvalor;
-        private NumericUpDown nudlaudo;
         private RadioButton rbquantidade;
         private RadioButton rbperimetro;
         private Label label12;
         private Label label9;
         private Button button4;
-        private RadioButton rbcaptor;
         private Label label13;
-        private ComboBox cbnp;
-        private NumericUpDown nudpcaptor;
         private Label label14;
+        private Label cbtabela;
+        public TextBox tbconsulta;
+        public DataGridView dgvconsulta;
+        public ComboBox cbservico;
+        public NumericUpDown nudaltura;
+        public NumericUpDown nudperimetro;
+        public RadioButton rbaterramento;
+        public ComboBox cbmaterial;
+        public RadioButton rbdescidas;
+        public ComboBox cbmaterialAterramento;
+        public NumericUpDown nudpontos;
+        public ComboBox cbarranjo;
+        public ComboBox cbedificacao;
+        public ComboBox cbtipo;
+        public NumericUpDown nudquantidade;
+        public NumericUpDown nudvalor;
+        public NumericUpDown nudlaudo;
+        public RadioButton rbcaptor;
+        public ComboBox cbnp;
+        public NumericUpDown nudpcaptor;
+        public ComboBox cbtab;
     }
 }

@@ -80,6 +80,33 @@ namespace Sistema_Grifo.Migrations
 
                     b.ToTable("planilha", (string)null);
                 });
+
+            modelBuilder.Entity("Sistema_Grifo.Modelo.TabelaTemporaria", b =>
+                {
+                    b.Property<int>("temporarioID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoriaID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("quantidade")
+                        .HasColumnType("int");
+
+                    b.Property<float>("valor")
+                        .HasColumnType("float");
+
+                    b.Property<float>("valorTotal")
+                        .HasColumnType("float");
+
+                    b.HasKey("temporarioID");
+
+                    b.ToTable("descricao", (string)null);
+                });
 #pragma warning restore 612, 618
         }
     }

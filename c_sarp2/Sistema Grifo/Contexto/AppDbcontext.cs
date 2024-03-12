@@ -13,6 +13,7 @@ namespace Sistema_Grifo.contexto
         public DbSet<Material> Materials { get; set; }
         public DbSet<MaoDeObra> MaoDeObras { get; set; }
         public DbSet<Diversos> Diversoss { get; set; }
+        public DbSet<TabelaTemporaria> tabelaTemporarias { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySQL("Server=localhost;Port=3306;Database=grifo;Uid=root;Pwd=1578");
@@ -23,10 +24,12 @@ namespace Sistema_Grifo.contexto
             modelBuilder.Entity<MaoDeObra>().HasKey(c => c.cargosID);
 
             modelBuilder.Entity<Diversos>().HasKey(c => c.CustoID);
+            modelBuilder.Entity<TabelaTemporaria>().HasKey(c => c.temporarioID);
 
             modelBuilder.Entity<Material>().ToTable("planilha");
             modelBuilder.Entity<MaoDeObra>().ToTable("cargos");
             modelBuilder.Entity<Diversos>().ToTable("custosdiversos");
+            modelBuilder.Entity<TabelaTemporaria>().ToTable("descricao");
         }
 
 

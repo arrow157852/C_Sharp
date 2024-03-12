@@ -6,7 +6,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Sistema_Grifo.Migrations
 {
     /// <inheritdoc />
-    public partial class inicial : Migration
+    public partial class terceira : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -47,6 +47,24 @@ namespace Sistema_Grifo.Migrations
                 .Annotation("MySQL:Charset", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "descricao",
+                columns: table => new
+                {
+                    temporarioID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                    descricao = table.Column<string>(type: "longtext", nullable: false),
+                    valorTotal = table.Column<float>(type: "float", nullable: false),
+                    quantidade = table.Column<int>(type: "int", nullable: false),
+                    CategoriaID = table.Column<int>(type: "int", nullable: false),
+                    valor = table.Column<float>(type: "float", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_descricao", x => x.temporarioID);
+                })
+                .Annotation("MySQL:Charset", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "planilha",
                 columns: table => new
                 {
@@ -71,6 +89,9 @@ namespace Sistema_Grifo.Migrations
 
             migrationBuilder.DropTable(
                 name: "custosdiversos");
+
+            migrationBuilder.DropTable(
+                name: "descricao");
 
             migrationBuilder.DropTable(
                 name: "planilha");
