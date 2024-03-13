@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iFZvyi9S+/pNq7wTb8viUyVRotUKQIikUcCCet5Qwz/LHzQrAMSai68mMV6/hRXuRRvsNSjb7BmktJr5aoOnWA==",
+  "dgSpecHash": "0xg+jDyYEzwgTByzZwWWveoNZOHTt8CXm8Jc7bXPsgdUk/QioHgISE7XZH8JKz63L4X25lHq80uc/CeBs3Rf1Q==",
   "success": true,
-  "projectFilePath": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Sistema Grifo.csproj",
+  "projectFilePath": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sarp2\\Sistema Grifo\\Sistema Grifo.csproj",
   "expectedPackageFiles": [
     "D:\\Usuarios\\Usuario04\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "D:\\Usuarios\\Usuario04\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

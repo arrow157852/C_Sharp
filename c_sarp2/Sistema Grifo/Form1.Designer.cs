@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            panel3 = new Panel();
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
+            panel4 = new Panel();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
             button4 = new Button();
-            panel3 = new Panel();
-            panel4 = new Panel();
             Pnpainel = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -52,6 +52,13 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1086, 13);
             panel1.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            panel3.Location = new Point(239, 12);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(844, 535);
+            panel3.TabIndex = 2;
             // 
             // panel2
             // 
@@ -74,6 +81,13 @@
             pictureBox1.Size = new Size(251, 64);
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
+            // 
+            // panel4
+            // 
+            panel4.Location = new Point(239, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(844, 535);
+            panel4.TabIndex = 2;
             // 
             // button3
             // 
@@ -118,7 +132,7 @@
             button1.TabIndex = 0;
             button1.Text = "         Registro";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += this.button1_Click;
             // 
             // button4
             // 
@@ -133,20 +147,6 @@
             button4.Text = "x";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
-            // 
-            // panel3
-            // 
-            panel3.Location = new Point(239, 12);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(844, 535);
-            panel3.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            panel4.Location = new Point(239, 0);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(844, 535);
-            panel4.TabIndex = 2;
             // 
             // Pnpainel
             // 
@@ -179,14 +179,14 @@
 
         private Panel panel1;
         private Panel panel2;
-        private Button button3;
-        private Button button2;
-        private Button button1;
         private UserControl1 PnRegistro;
         private PictureBox pictureBox1;
         private Button button4;
         private Panel panel3;
         private Panel panel4;
         private Panel Pnpainel;
+        public Button button2;
+        public Button button1;
+        public Button button3;
     }
 }

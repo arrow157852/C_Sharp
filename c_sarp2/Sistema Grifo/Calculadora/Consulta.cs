@@ -12,35 +12,28 @@ namespace Sistema_Grifo.Calculadora
 
 
 
-        public void consultarDados()
+        public void ConsultarDados(string descricao, string itemSelecionado, DataGridView dataGridView)
         {
-            using (UserControl2 u = new UserControl2())
-           
+            try
             {
-                string descricao = u.tbconsulta.Text.Trim();
-                try
+                if (string.IsNullOrEmpty(descricao))
                 {
-                     string itemSelecionado = u.cbtab.SelectedItem.ToString();
-                    if (string.IsNullOrEmpty(descricao))
-                    {
-                        u.dgvconsulta.DataSource = ObterDados(itemSelecionado);
-                    }
-                    else
-                    {
-                        u.dgvconsulta.DataSource = ObterDadosFiltrados(itemSelecionado, descricao);
-                    }
-
-
-                    u.dgvconsulta.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                    u.dgvconsulta.Columns[0].Visible = false;
+                    dataGridView.DataSource = ObterDados(itemSelecionado);
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show(ex.Message, ex.Source) ;
+                    dataGridView.DataSource = ObterDadosFiltrados(itemSelecionado, descricao);
                 }
-               
+
+                dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                dataGridView.Columns[0].Visible = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, ex.Source);
             }
         }
+
         public object ObterDados(string itemSelecionado)
         {
             
@@ -62,7 +55,7 @@ namespace Sistema_Grifo.Calculadora
                                        .ToList();
                     case "tabelaTemporaria":
                         return context.tabelaTemporarias
-                                        .Select(d => new { d.temporarioID, d.valor, d.quantidade, d.valorTotal })
+                                        .Select(d => new { d.temporarioID,d.descricao, d.valor, d.quantidade, d.valorTotal })
                                         .ToList();
                     default:
                         return null;
@@ -94,7 +87,7 @@ namespace Sistema_Grifo.Calculadora
                     case "TabelaTemporaria":
                         return context.tabelaTemporarias
                                        .Where(d => d.descricao.Contains(descricao))
-                                       .Select(d => new { d.temporarioID, d.valor, d.quantidade, d.valorTotal })
+                                       .Select(d => new { d.temporarioID,d.descricao, d.valor, d.quantidade, d.valorTotal })
                                        .ToList();
                     default:
                         return null;

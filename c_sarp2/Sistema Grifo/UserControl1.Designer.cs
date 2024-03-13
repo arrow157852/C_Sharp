@@ -276,11 +276,7 @@
         private Button bexcluir;
         private Button bcancelar;
         private DataGridView dgvconsulta;
-        private ComboBox cbtabela;
-        private TextBox tbconsulta;
         private Label label1;
-        private TextBox tbid;
-        private TextBox tbdescricao;
        
         private Label label2;
         private Label label3;
@@ -288,5 +284,9 @@
         private Label label5;
         public NumericUpDown numericUpDown1;
         private Button button4;
+        public ComboBox cbtabela;
+        public TextBox tbconsulta;
+        public TextBox tbid;
+        public TextBox tbdescricao;
     }
 }

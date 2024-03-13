@@ -81,7 +81,35 @@ namespace Sistema_Grifo
 
         }
 
-        
+        private void dgvconsulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            DataGridViewRow row = dgvconsulta.Rows[e.RowIndex];
+            string itemSelecionado = cbtabela.SelectedItem?.ToString();
+            if (itemSelecionado.Equals("Material"))
+            {
+                // Supondo que 'Id' e 'Material' são as colunas relevantes para a tabela de Material
+
+                tbconsulta.Text = row.Cells["Material"].Value.ToString();
+                nudvalor.Text = row.Cells["valor_unidade"].Value.ToString();
+            }
+            else if (itemSelecionado.Equals("Mão de obra"))
+            {
+                // Supondo que 'Id' e 'Nome_cargo' são as colunas relevantes para a tabela de Mão de obra
+
+                tbconsulta.Text = row.Cells["Nome_cargo"].Value.ToString();
+                nudvalor.Text = row.Cells["valor_cargo"].Value.ToString();
+            }
+            else if (itemSelecionado.Equals("Diversos"))
+            {
+                // Supondo que 'Id' e 'Descricao' são as colunas relevantes para a tabela de Diversos
+
+                tbconsulta.Text = row.Cells["descricao"].Value.ToString();
+                nudvalor.Text = row.Cells["valor_diversos"].Value.ToString();
+            }
+
+
+        }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -104,13 +132,13 @@ namespace Sistema_Grifo
 
         private void cbtab_SelectedIndexChanged(object sender, EventArgs e)
         {
-            consulta.consultarDados();
+            consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
 
         }
 
         private void tbconsulta_TextChanged(object sender, EventArgs e)
         {
-            consulta.consultarDados();
+            consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
         }
 
         private void UserControl2_Load(object sender, EventArgs e)
@@ -118,14 +146,16 @@ namespace Sistema_Grifo
 
         }
 
-        private void dgvconsulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
         private void cbtab_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            consulta.consultarDados();
+            consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
+        }
+
+        private void label_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

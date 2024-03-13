@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using Sistema_Grifo.contexto;
 using Sistema_Grifo.Modelo;
 using System.Linq;
+using Sistema_Grifo.Calculadora;
 
 namespace Sistema_Grifo
 {
@@ -10,6 +11,8 @@ namespace Sistema_Grifo
     {
         private object dados;
         AppDbcontext context = new AppDbcontext();
+        Consulta consulta = new Consulta();
+        
 
         public UserControl1()
         {
@@ -84,79 +87,18 @@ namespace Sistema_Grifo
                 }
             }
 
-            consultarDados();
+            consulta.ConsultarDados(tbconsulta.Text,cbtabela.SelectedItem.ToString(),dgvconsulta);
             limpacampos();
         }
+        
 
-        private void consultarDados()
-        {
-            string descricao = tbconsulta.Text.Trim();
-            string itemSelecionado = cbtabela.SelectedItem.ToString();
-
-            if (string.IsNullOrEmpty(descricao))
-            {
-                dgvconsulta.DataSource = ObterDados(itemSelecionado);
-            }
-            else
-            {
-                dgvconsulta.DataSource = ObterDadosFiltrados(itemSelecionado, descricao);
-            }
-
-
-            dgvconsulta.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvconsulta.Columns[0].Visible = false;
-        }
-
-        private object ObterDadosFiltrados(string itemSelecionado, string descricao)
-        {
-            switch (itemSelecionado)
-            {
-                case "Material":
-                    return context.Materials
-                                   .Where(m => m.material.Contains(descricao))
-                                   .Select(m => new { m.id, m.material, m.valor_unidade })
-                                   .ToList();
-                case "Mão de obra":
-                    return context.MaoDeObras
-                                   .Where(mo => mo.Nome_cargo.Contains(descricao))
-                                   .Select(mo => new { mo.cargosID, mo.Nome_cargo, mo.valor_cargo })
-                                   .ToList();
-                case "Diversos":
-                    return context.Diversoss
-                                   .Where(d => d.Descricao.Contains(descricao))
-                                   .Select(d => new { d.CategoriaID, d.Descricao, d.valor_diversos })
-                                   .ToList();
-                default:
-                    return null;
-            }
-        }
-
-        private object ObterDados(string itemSelecionado)
-        {
-            switch (itemSelecionado)
-            {
-                case "Material":
-                    return context.Materials
-                                   .Select(m => new { m.id, m.material, m.valor_unidade })
-                                   .ToList();
-                case "Mão de obra":
-                    return context.MaoDeObras
-                                   .Select(mo => new { mo.cargosID, mo.Nome_cargo, mo.valor_cargo })
-                                   .ToList();
-                case "Diversos":
-                    return context.Diversoss
-                                   .Select(d => new { d.CategoriaID, d.Descricao, d.valor_diversos })
-                                   .ToList();
-                default:
-                    return null;
-            }
-        }
+       
 
 
 
         private void cbtabela_SelectedIndexChanged(object sender, EventArgs e)
         {
-            consultarDados();
+            consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
             habilitabotoes(false);
             habilitacampos(true);
 
@@ -182,7 +124,7 @@ namespace Sistema_Grifo
             }
             else
             {
-                consultarDados();
+                consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
             }
         }
 
@@ -212,7 +154,7 @@ namespace Sistema_Grifo
                     registro.valor_diversos = valor;
                 }
                 context.SaveChanges();
-                consultarDados();
+                consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
             }
             catch (Exception ex)
             {
@@ -364,7 +306,7 @@ namespace Sistema_Grifo
         private void bexcluir_Click(object sender, EventArgs e)
         {
             excluir();
-            consultarDados();
+            consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
             limpacampos();
             string itemSelecionado = cbtabela.SelectedItem?.ToString();
 

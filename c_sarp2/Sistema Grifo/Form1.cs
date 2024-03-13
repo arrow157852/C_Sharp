@@ -1,3 +1,4 @@
+using Sistema_Grifo.Calculadora;
 using System.Windows.Forms;
 
 namespace Sistema_Grifo
@@ -22,8 +23,11 @@ namespace Sistema_Grifo
             userControl1.Dock = DockStyle.Fill; // Define o preenchimento do UserControl1 dentro do Panel
             Pnpainel.Controls.Add(userControl1); // Adiciona o UserControl1 ao PnPainel
             panel2.BringToFront();
-        }
+           
+            
 
+        }
+       
 
 
 

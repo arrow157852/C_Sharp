@@ -29,7 +29,7 @@ namespace Sistema_Grifo.contexto
             modelBuilder.Entity<Material>().ToTable("planilha");
             modelBuilder.Entity<MaoDeObra>().ToTable("cargos");
             modelBuilder.Entity<Diversos>().ToTable("custosdiversos");
-            modelBuilder.Entity<TabelaTemporaria>().ToTable("descricao");
+            modelBuilder.Entity<TabelaTemporaria>().ToTable("tabelaTemporaria");
         }
 
 

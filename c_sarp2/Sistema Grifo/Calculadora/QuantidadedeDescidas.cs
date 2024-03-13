@@ -18,21 +18,21 @@ namespace Sistema_Grifo.Calculadora
             UserControl2 u = new UserControl2();
             int descidas = 0;
             int anelDeEquilibrio= 0;
-            int publicCbnpValue = int.Parse(u.cbnp.Text);
+            string publicCbnpValue = u.cbnp.Text;
             float perimetroSpda = (float)u.nudperimetro.Value;
             float alturaSpda = (float)u.nudaltura.Value;
 
-            if (publicCbnpValue == 1 || publicCbnpValue == 2)
+            if (publicCbnpValue == "1" || publicCbnpValue == "2")
             {
                 descidas = (int)perimetroSpda / 12;
                 anelDeEquilibrio = (int)(alturaSpda / 10 - 1);
             }
-            else if (publicCbnpValue == 3)
+            else if (publicCbnpValue == "3")
             {
                 descidas = (int)perimetroSpda / 18;
                 anelDeEquilibrio = (int)(alturaSpda / 15 - 1);
             }
-            else if (publicCbnpValue == 4)
+            else if (publicCbnpValue == "4")
             {
 
                 descidas = (int)perimetroSpda / 24;
