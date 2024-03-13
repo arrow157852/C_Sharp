@@ -20,7 +20,7 @@ namespace Sistema_Grifo
         public UserControl2()
         {
             InitializeComponent();
-            gbSpda.Enabled = false;
+            gbspda.Enabled = false;
             gblaudo.Enabled = false;
             gbaterramento.Enabled = false;
 
@@ -33,22 +33,22 @@ namespace Sistema_Grifo
             switch (cbservico.SelectedItem.ToString())
             {
                 case "SPDA":
-                    gbSpda.Enabled = true;
+                    gbspda.Enabled = true;
                     gblaudo.Enabled = false;
                     gbaterramento.Enabled = false;
                     break;
                 case "Laudo":
                     gblaudo.Enabled = true;
-                    gbSpda.Enabled = false;
+                    gbspda.Enabled = false;
                     gbaterramento.Enabled = false;
                     break;
                 case "Aterramento":
                     gbaterramento.Enabled = true;
                     gblaudo.Enabled = false;
-                    gbSpda.Enabled = false;
+                    gbspda.Enabled = false;
                     break;
                 default:
-                    gbSpda.Enabled = false;
+                    gbspda.Enabled = false;
                     gblaudo.Enabled = false;
                     gbaterramento.Enabled = false;
                     break;
@@ -156,26 +156,6 @@ namespace Sistema_Grifo
         private void label_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rbcaptor_CheckedChanged_1(object sender, EventArgs e)
-        {
-            calc.Captor();
-        }
-
-        private void rbdescidas_CheckedChanged_1(object sender, EventArgs e)
-        {
-            calc.descidas();
-        }
-
-        private void rbaterramento_CheckedChanged_1(object sender, EventArgs e)
-        {
-            calc.aterramento();
         }
     }
 }
