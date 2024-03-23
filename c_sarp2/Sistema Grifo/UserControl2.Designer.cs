@@ -28,14 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl2));
-            bcancelar = new Button();
-            bexcluir = new Button();
-            bsalvar = new Button();
-            balterar = new Button();
-            bnovo = new Button();
-            label1 = new Label();
-            tbconsulta = new TextBox();
             dgvconsulta = new DataGridView();
             cbservico = new ComboBox();
             label2 = new Label();
@@ -43,16 +35,18 @@
             label3 = new Label();
             nudperimetro = new NumericUpDown();
             label4 = new Label();
-            rbaterramento = new RadioButton();
             cbmaterial = new ComboBox();
             label5 = new Label();
-            rbdescidas = new RadioButton();
             gbspda = new GroupBox();
+            bcalc = new Button();
+            bexc = new Button();
+            cbaterramento = new CheckBox();
+            cbcaptor = new CheckBox();
+            cbdescidas = new CheckBox();
             label14 = new Label();
             nudpcaptor = new NumericUpDown();
             cbnp = new ComboBox();
             label13 = new Label();
-            rbcaptor = new RadioButton();
             gbaterramento = new GroupBox();
             cbarranjo = new ComboBox();
             cbmaterialAterramento = new ComboBox();
@@ -68,13 +62,7 @@
             cbedificacao = new ComboBox();
             label10 = new Label();
             label11 = new Label();
-            nudquantidade = new NumericUpDown();
-            nudvalor = new NumericUpDown();
-            label12 = new Label();
-            label9 = new Label();
             button4 = new Button();
-            label = new Label();
-            cbtabela = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvconsulta).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudaltura).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudperimetro).BeginInit();
@@ -84,109 +72,21 @@
             ((System.ComponentModel.ISupportInitialize)nudpontos).BeginInit();
             gblaudo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudlaudo).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudquantidade).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudvalor).BeginInit();
             SuspendLayout();
-            // 
-            // bcancelar
-            // 
-            bcancelar.Font = new Font("Century Gothic", 12F);
-            bcancelar.Image = (Image)resources.GetObject("bcancelar.Image");
-            bcancelar.ImageAlign = ContentAlignment.MiddleLeft;
-            bcancelar.Location = new Point(607, 3);
-            bcancelar.Name = "bcancelar";
-            bcancelar.Size = new Size(126, 54);
-            bcancelar.TabIndex = 9;
-            bcancelar.Text = "Cancelar";
-            bcancelar.TextAlign = ContentAlignment.MiddleRight;
-            bcancelar.UseVisualStyleBackColor = true;
-            // 
-            // bexcluir
-            // 
-            bexcluir.Font = new Font("Century Gothic", 12F);
-            bexcluir.Image = (Image)resources.GetObject("bexcluir.Image");
-            bexcluir.ImageAlign = ContentAlignment.MiddleLeft;
-            bexcluir.Location = new Point(475, 3);
-            bexcluir.Name = "bexcluir";
-            bexcluir.Size = new Size(126, 54);
-            bexcluir.TabIndex = 8;
-            bexcluir.Text = "Excluir";
-            bexcluir.TextAlign = ContentAlignment.MiddleRight;
-            bexcluir.UseVisualStyleBackColor = true;
-            // 
-            // bsalvar
-            // 
-            bsalvar.Font = new Font("Century Gothic", 12F);
-            bsalvar.Image = (Image)resources.GetObject("bsalvar.Image");
-            bsalvar.ImageAlign = ContentAlignment.MiddleLeft;
-            bsalvar.Location = new Point(270, 3);
-            bsalvar.Name = "bsalvar";
-            bsalvar.Size = new Size(126, 54);
-            bsalvar.TabIndex = 7;
-            bsalvar.Text = "Salvar";
-            bsalvar.TextAlign = ContentAlignment.MiddleRight;
-            bsalvar.UseVisualStyleBackColor = true;
-            bsalvar.Click += bsalvar_Click;
-            // 
-            // balterar
-            // 
-            balterar.Font = new Font("Century Gothic", 12F);
-            balterar.Image = (Image)resources.GetObject("balterar.Image");
-            balterar.ImageAlign = ContentAlignment.MiddleLeft;
-            balterar.Location = new Point(138, 3);
-            balterar.Name = "balterar";
-            balterar.Size = new Size(126, 54);
-            balterar.TabIndex = 6;
-            balterar.Text = "Alterar";
-            balterar.TextAlign = ContentAlignment.MiddleRight;
-            balterar.UseVisualStyleBackColor = true;
-            balterar.Click += balterar_Click;
-            // 
-            // bnovo
-            // 
-            bnovo.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            bnovo.Image = (Image)resources.GetObject("bnovo.Image");
-            bnovo.ImageAlign = ContentAlignment.MiddleLeft;
-            bnovo.Location = new Point(6, 3);
-            bnovo.Name = "bnovo";
-            bnovo.Size = new Size(126, 54);
-            bnovo.TabIndex = 5;
-            bnovo.Text = " Novo";
-            bnovo.TextAlign = ContentAlignment.MiddleRight;
-            bnovo.UseVisualStyleBackColor = true;
-            bnovo.Click += bnovo_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(35, 369);
-            label1.Name = "label1";
-            label1.Size = new Size(86, 21);
-            label1.TabIndex = 20;
-            label1.Text = "Adicionar";
-            // 
-            // tbconsulta
-            // 
-            tbconsulta.Location = new Point(127, 371);
-            tbconsulta.Name = "tbconsulta";
-            tbconsulta.Size = new Size(269, 23);
-            tbconsulta.TabIndex = 19;
-            tbconsulta.TextChanged += tbconsulta_TextChanged;
             // 
             // dgvconsulta
             // 
             dgvconsulta.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvconsulta.Location = new Point(31, 414);
+            dgvconsulta.Location = new Point(31, 336);
             dgvconsulta.Name = "dgvconsulta";
-            dgvconsulta.Size = new Size(769, 106);
+            dgvconsulta.Size = new Size(769, 184);
             dgvconsulta.TabIndex = 18;
             // 
             // cbservico
             // 
             cbservico.FormattingEnabled = true;
             cbservico.Items.AddRange(new object[] { "SPDA", "Aterramento", "Laudo" });
-            cbservico.Location = new Point(3, 98);
+            cbservico.Location = new Point(10, 54);
             cbservico.Name = "cbservico";
             cbservico.Size = new Size(70, 23);
             cbservico.TabIndex = 23;
@@ -196,7 +96,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(5, 75);
+            label2.Location = new Point(12, 31);
             label2.Name = "label2";
             label2.Size = new Size(66, 21);
             label2.TabIndex = 24;
@@ -207,6 +107,7 @@
             nudaltura.DecimalPlaces = 2;
             nudaltura.Font = new Font("Century Gothic", 9.75F);
             nudaltura.Location = new Point(106, 104);
+            nudaltura.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
             nudaltura.Name = "nudaltura";
             nudaltura.Size = new Size(75, 23);
             nudaltura.TabIndex = 25;
@@ -226,6 +127,7 @@
             nudperimetro.DecimalPlaces = 2;
             nudperimetro.Font = new Font("Century Gothic", 9.75F);
             nudperimetro.Location = new Point(2, 47);
+            nudperimetro.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
             nudperimetro.Name = "nudperimetro";
             nudperimetro.Size = new Size(87, 23);
             nudperimetro.TabIndex = 27;
@@ -239,18 +141,6 @@
             label4.Size = new Size(84, 21);
             label4.TabIndex = 28;
             label4.Text = "Perimetro";
-            // 
-            // rbaterramento
-            // 
-            rbaterramento.AutoSize = true;
-            rbaterramento.Location = new Point(151, 174);
-            rbaterramento.Name = "rbaterramento";
-            rbaterramento.Size = new Size(90, 19);
-            rbaterramento.TabIndex = 30;
-            rbaterramento.TabStop = true;
-            rbaterramento.Text = "aterramento";
-            rbaterramento.UseVisualStyleBackColor = true;
-            rbaterramento.CheckedChanged += rbaterramento_CheckedChanged;
             // 
             // cbmaterial
             // 
@@ -272,39 +162,87 @@
             label5.TabIndex = 32;
             label5.Text = "material";
             // 
-            // rbdescidas
-            // 
-            rbdescidas.AutoSize = true;
-            rbdescidas.Location = new Point(68, 174);
-            rbdescidas.Name = "rbdescidas";
-            rbdescidas.Size = new Size(70, 19);
-            rbdescidas.TabIndex = 33;
-            rbdescidas.TabStop = true;
-            rbdescidas.Text = "descidas";
-            rbdescidas.UseVisualStyleBackColor = true;
-            rbdescidas.CheckedChanged += rbdescidas_CheckedChanged;
-            // 
             // gbspda
             // 
+            gbspda.Controls.Add(bcalc);
+            gbspda.Controls.Add(bexc);
+            gbspda.Controls.Add(cbaterramento);
+            gbspda.Controls.Add(cbcaptor);
+            gbspda.Controls.Add(cbdescidas);
             gbspda.Controls.Add(label14);
             gbspda.Controls.Add(nudpcaptor);
             gbspda.Controls.Add(cbnp);
             gbspda.Controls.Add(label13);
             gbspda.Controls.Add(cbmaterial);
-            gbspda.Controls.Add(rbdescidas);
             gbspda.Controls.Add(nudaltura);
             gbspda.Controls.Add(label5);
             gbspda.Controls.Add(label3);
             gbspda.Controls.Add(nudperimetro);
-            gbspda.Controls.Add(rbaterramento);
             gbspda.Controls.Add(label4);
-            gbspda.Controls.Add(rbcaptor);
-            gbspda.Location = new Point(487, 128);
+            gbspda.Location = new Point(494, 54);
             gbspda.Name = "gbspda";
             gbspda.Size = new Size(258, 215);
             gbspda.TabIndex = 34;
             gbspda.TabStop = false;
             gbspda.Text = "SPDA";
+            // 
+            // bcalc
+            // 
+            bcalc.Font = new Font("Century Gothic", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bcalc.Location = new Point(195, 181);
+            bcalc.Name = "bcalc";
+            bcalc.Size = new Size(39, 23);
+            bcalc.TabIndex = 44;
+            bcalc.Text = "calc";
+            bcalc.UseVisualStyleBackColor = true;
+            bcalc.Click += bcalc_Click;
+            // 
+            // bexc
+            // 
+            bexc.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bexc.Location = new Point(143, 181);
+            bexc.Name = "bexc";
+            bexc.Size = new Size(38, 23);
+            bexc.TabIndex = 43;
+            bexc.Text = "exc";
+            bexc.UseVisualStyleBackColor = true;
+            bexc.Click += button1_Click;
+            // 
+            // cbaterramento
+            // 
+            cbaterramento.AutoSize = true;
+            cbaterramento.FlatStyle = FlatStyle.System;
+            cbaterramento.Location = new Point(6, 188);
+            cbaterramento.Name = "cbaterramento";
+            cbaterramento.Size = new Size(97, 20);
+            cbaterramento.TabIndex = 42;
+            cbaterramento.Text = "aterramento";
+            cbaterramento.UseVisualStyleBackColor = true;
+            cbaterramento.CheckedChanged += cbaterramento_CheckedChanged;
+            // 
+            // cbcaptor
+            // 
+            cbcaptor.AutoSize = true;
+            cbcaptor.FlatStyle = FlatStyle.System;
+            cbcaptor.Location = new Point(6, 142);
+            cbcaptor.Name = "cbcaptor";
+            cbcaptor.Size = new Size(66, 20);
+            cbcaptor.TabIndex = 41;
+            cbcaptor.Text = "captor";
+            cbcaptor.UseVisualStyleBackColor = true;
+            cbcaptor.CheckedChanged += cbcaptor_CheckedChanged;
+            // 
+            // cbdescidas
+            // 
+            cbdescidas.AutoSize = true;
+            cbdescidas.FlatStyle = FlatStyle.System;
+            cbdescidas.Location = new Point(6, 164);
+            cbdescidas.Name = "cbdescidas";
+            cbdescidas.Size = new Size(77, 20);
+            cbdescidas.TabIndex = 40;
+            cbdescidas.Text = "descidas";
+            cbdescidas.UseVisualStyleBackColor = true;
+            cbdescidas.CheckedChanged += cbdescidas_CheckedChanged;
             // 
             // label14
             // 
@@ -321,6 +259,7 @@
             nudpcaptor.DecimalPlaces = 2;
             nudpcaptor.Font = new Font("Century Gothic", 9.75F);
             nudpcaptor.Location = new Point(2, 104);
+            nudpcaptor.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
             nudpcaptor.Name = "nudpcaptor";
             nudpcaptor.Size = new Size(87, 23);
             nudpcaptor.TabIndex = 38;
@@ -345,18 +284,6 @@
             label13.TabIndex = 36;
             label13.Text = "np";
             // 
-            // rbcaptor
-            // 
-            rbcaptor.AutoSize = true;
-            rbcaptor.Location = new Point(3, 174);
-            rbcaptor.Name = "rbcaptor";
-            rbcaptor.Size = new Size(59, 19);
-            rbcaptor.TabIndex = 29;
-            rbcaptor.TabStop = true;
-            rbcaptor.Text = "captor";
-            rbcaptor.UseVisualStyleBackColor = true;
-            rbcaptor.CheckedChanged += rbcaptor_CheckedChanged;
-            // 
             // gbaterramento
             // 
             gbaterramento.Controls.Add(cbarranjo);
@@ -365,7 +292,7 @@
             gbaterramento.Controls.Add(label6);
             gbaterramento.Controls.Add(label7);
             gbaterramento.Controls.Add(label8);
-            gbaterramento.Location = new Point(138, 128);
+            gbaterramento.Location = new Point(145, 54);
             gbaterramento.Name = "gbaterramento";
             gbaterramento.Size = new Size(315, 99);
             gbaterramento.TabIndex = 35;
@@ -393,6 +320,7 @@
             // 
             nudpontos.Font = new Font("Century Gothic", 9.75F);
             nudpontos.Location = new Point(13, 69);
+            nudpontos.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
             nudpontos.Name = "nudpontos";
             nudpontos.Size = new Size(59, 23);
             nudpontos.TabIndex = 25;
@@ -436,7 +364,7 @@
             gblaudo.Controls.Add(cbedificacao);
             gblaudo.Controls.Add(label10);
             gblaudo.Controls.Add(label11);
-            gblaudo.Location = new Point(138, 247);
+            gblaudo.Location = new Point(145, 173);
             gblaudo.Name = "gblaudo";
             gblaudo.Size = new Size(315, 96);
             gblaudo.TabIndex = 36;
@@ -511,43 +439,6 @@
             label11.TabIndex = 28;
             label11.Text = "edificação";
             // 
-            // nudquantidade
-            // 
-            nudquantidade.Font = new Font("Century Gothic", 9.75F);
-            nudquantidade.Location = new Point(637, 369);
-            nudquantidade.Name = "nudquantidade";
-            nudquantidade.Size = new Size(74, 23);
-            nudquantidade.TabIndex = 35;
-            // 
-            // nudvalor
-            // 
-            nudvalor.DecimalPlaces = 2;
-            nudvalor.Font = new Font("Century Gothic", 9.75F);
-            nudvalor.Location = new Point(717, 369);
-            nudvalor.Name = "nudvalor";
-            nudvalor.Size = new Size(86, 23);
-            nudvalor.TabIndex = 37;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(637, 345);
-            label12.Name = "label12";
-            label12.Size = new Size(62, 21);
-            label12.TabIndex = 38;
-            label12.Text = "Quant";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(717, 345);
-            label9.Name = "label9";
-            label9.Size = new Size(49, 21);
-            label9.TabIndex = 39;
-            label9.Text = "valor";
-            // 
             // button4
             // 
             button4.FlatAppearance.BorderSize = 0;
@@ -562,51 +453,17 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
-            // label
-            // 
-            label.AutoSize = true;
-            label.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label.Location = new Point(3, 142);
-            label.Name = "label";
-            label.Size = new Size(64, 21);
-            label.TabIndex = 42;
-            label.Text = "Tabela";
-            label.Click += label_Click;
-            // 
-            // cbtabela
-            // 
-            cbtabela.FormattingEnabled = true;
-            cbtabela.Items.AddRange(new object[] { "Material", "Mão de obra", "Diversos", "tabelaTemporaria" });
-            cbtabela.Location = new Point(3, 167);
-            cbtabela.Name = "cbtabela";
-            cbtabela.Size = new Size(67, 23);
-            cbtabela.TabIndex = 43;
-            cbtabela.SelectedIndexChanged += cbtab_SelectedIndexChanged_1;
-            // 
             // UserControl2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(cbtabela);
-            Controls.Add(label);
             Controls.Add(button4);
-            Controls.Add(label9);
-            Controls.Add(label12);
-            Controls.Add(nudvalor);
-            Controls.Add(nudquantidade);
             Controls.Add(gblaudo);
             Controls.Add(gbaterramento);
             Controls.Add(gbspda);
             Controls.Add(label2);
             Controls.Add(cbservico);
-            Controls.Add(label1);
-            Controls.Add(tbconsulta);
             Controls.Add(dgvconsulta);
-            Controls.Add(bcancelar);
-            Controls.Add(bexcluir);
-            Controls.Add(bsalvar);
-            Controls.Add(balterar);
-            Controls.Add(bnovo);
             Name = "UserControl2";
             Size = new Size(840, 523);
             Load += UserControl2_Load;
@@ -622,20 +479,11 @@
             gblaudo.ResumeLayout(false);
             gblaudo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudlaudo).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudquantidade).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudvalor).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button bcancelar;
-        private Button bexcluir;
-        private Button bsalvar;
-        private Button balterar;
-        private Button bnovo;
-        private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
@@ -650,31 +498,26 @@
         private Label label11;
         private RadioButton rbquantidade;
         private RadioButton rbperimetro;
-        private Label label12;
-        private Label label9;
         private Button button4;
         private Label label13;
         private Label label14;
-        private Label label;
-        public TextBox tbconsulta;
         public DataGridView dgvconsulta;
         public ComboBox cbservico;
         public NumericUpDown nudaltura;
         public NumericUpDown nudperimetro;
-        public RadioButton rbaterramento;
         public ComboBox cbmaterial;
-        public RadioButton rbdescidas;
         public ComboBox cbmaterialAterramento;
         public NumericUpDown nudpontos;
         public ComboBox cbarranjo;
         public ComboBox cbedificacao;
         public ComboBox cbtipo;
-        public NumericUpDown nudquantidade;
-        public NumericUpDown nudvalor;
         public NumericUpDown nudlaudo;
-        public RadioButton rbcaptor;
         public ComboBox cbnp;
         public NumericUpDown nudpcaptor;
-        public ComboBox cbtabela;
+        private CheckBox cbaterramento;
+        private CheckBox cbcaptor;
+        private CheckBox cbdescidas;
+        private Button bexc;
+        private Button bcalc;
     }
 }
