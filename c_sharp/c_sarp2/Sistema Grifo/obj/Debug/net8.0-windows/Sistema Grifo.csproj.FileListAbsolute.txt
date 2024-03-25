@@ -527,6 +527,7 @@ C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.
 C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.dll
 C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.Sinks.Console.dll
+<<<<<<< HEAD:2/c_sarp2/Sistema Grifo/obj/Debug/net8.0-windows/Sistema Grifo.csproj.FileListAbsolute.txt
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
@@ -535,3 +536,5 @@ C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Mi
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.dll
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.Sinks.Console.dll
+=======
+>>>>>>> origin/main:c_sarp2/Sistema Grifo/obj/Debug/net8.0-windows/Sistema Grifo.csproj.FileListAbsolute.txt
