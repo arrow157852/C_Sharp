@@ -519,3 +519,19 @@ C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\re
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.pdb
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.genruntimeconfig.cache
 C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\ref\Sistema Grifo.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.dll
+C:\programacao\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.Sinks.Console.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.dll
+C:\programacao\C_Sharp\C_Sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.Sinks.Console.dll

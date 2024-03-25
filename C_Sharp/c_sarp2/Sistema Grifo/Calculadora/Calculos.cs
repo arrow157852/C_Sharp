@@ -1,32 +1,123 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Crypto;
 using Sistema_Grifo.contexto;
 using Sistema_Grifo.Modelo;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.Control;
+using Newtonsoft.Json;
+using Microsoft.VisualBasic.Logging;
+using MySqlX.XDevAPI.Common;
+using Serilog;
+using Log = Serilog.Log;
+using Microsoft.Extensions.Options;
+using Mysqlx.Session;
+using System.Reflection;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Sistema_Grifo.Calculadora
 {
     public class Calculos
     {
-        QuantidadedeDescidas quantDescidas = new QuantidadedeDescidas();
+        int diasCaptor;
+        int diasAnel;
+        int diasDescidas;
+        int diasAterramento;
+        int diasProtecaoMecanica;
+        public List<int> idsmaterial { get; set; }
 
+        public List<int> idsMaodeObra { get; set; }
+        public List<int> idsmaterialdescidas { get; set; }
+        public List<int> idsmaterialaterramento { get; set; }
+        public List<int> idsmaterialCaptor { get; set; }
+        public List<int> quantidsmaterialdescidas { get; set; }
+        public List<int> idsmaterialdescidasGeral { get; set; }
+        public List<int> idsmaterialdescidasGerais { get; set; }
 
-        public void descidas()
+        public void uniao(string material, bool botao)
         {
-            using (UserControl2 u = new UserControl2())
+            var consulta = new Consulta();
+            if (idsmaterialdescidas != null && idsmaterialCaptor != null && idsmaterialaterramento != null)
             {
-                float perimetroSpda = (float)u.nudperimetro.Value;
-                float alturaSpda = (float)u.nudaltura.Value;
-                string material = u.cbmaterial.Text;
-                var descidas = quantDescidas.quantDescidas().Descidas;
-                var anelDeEquilibrio = quantDescidas.quantDescidas().AnelDeEquilibrio;
+                idsmaterial = idsmaterialdescidas.Union(idsmaterialCaptor.Union(idsmaterialaterramento)).ToList();
+            }
+            else if (idsmaterialdescidas != null && idsmaterialCaptor != null)
+            {
+                idsmaterial = idsmaterialdescidas.Union(idsmaterialCaptor).ToList();
+            }
+            else if (idsmaterialaterramento != null && idsmaterialdescidas != null)
+            {
+                idsmaterial = idsmaterialdescidas.Union(idsmaterialaterramento).ToList();
+            }
+            else if (idsmaterialCaptor != null && idsmaterialaterramento != null)
+            {
+                idsmaterial = idsmaterialCaptor.Union(idsmaterialaterramento).ToList();
+            }
+            else
+            {
+                if (idsmaterialCaptor != null)
+                {
+                    idsmaterial = idsmaterialCaptor.ToList();
+                }
+                else if (idsmaterialaterramento != null)
+                {
+                    idsmaterial = idsmaterialaterramento.ToList();
+                }
+                else
+                {
+                    idsmaterial = idsmaterialdescidas.ToList();
+                    idsmaterialdescidasGerais= idsmaterialdescidasGeral.ToList();
+                }
+            }
+            if (botao)
+            {
+
+                consulta.inserir(idsmaterial, material, "Material");
+                total(idsmaterialdescidasGerais, quantidsmaterialdescidas, "Material");
+            }
+        }
+        public void descida(float perimetroSpda, float alturaSpda, string material, string np)
+        {
+            var consulta = new Consulta();
+            using (UserControl2 u = new UserControl2())
+            using (var context = new AppDbcontext())
+
+
+
+            {
+                int descidas = 0;
+                int anelDeEquilibrio = 0;
+
+                if (np.Equals("1") || np.Equals("2"))
+                {
+                    descidas = (int)perimetroSpda / 12;
+                    anelDeEquilibrio = (int)((alturaSpda / 10) - 1);
+                }
+                else if (np.Equals("3"))
+                {
+                    descidas = (int)perimetroSpda / 18;
+                    anelDeEquilibrio = (int)(alturaSpda / 15) - 1;
+                }
+                else if (np.Equals("4"))
+                {
+
+                    descidas = (int)perimetroSpda / 24;
+                    anelDeEquilibrio = (int)(alturaSpda / 20) - 1;
+                }
+
+
+
+
+
 
                 if (material == "Barra chata")
                 {
@@ -40,10 +131,36 @@ namespace Sistema_Grifo.Calculadora
                     {
                         barraChatasanel = 0;
                     }
+                    int barraChatas = barraChatasanel + barraChatasdecidas;
+                    int quantparafusoDe6mm = (int)((barraChatasanel + barraChatasdecidas) * 8);
+                    int quantparafusoDeemenda = (int)((barraChatasdecidas) * 2);
+                    int quantparafusoDe8mm = (int)(descidas * 4);
+                    idsmaterialdescidas = new List<int> { 42, 74, 75, 76 };
+                    idsmaterialdescidasGeral = new List<int> { 1, 2, 3, 4 };
+                    quantidsmaterialdescidas = new List<int> { barraChatas, quantparafusoDe6mm, quantparafusoDeemenda, quantparafusoDe8mm };
+                    
 
-                    int parafusoDe6mm = (int)((barraChatasanel + barraChatasdecidas) * 8);
-                    int parafusoDeemenda = (int)((barraChatasdecidas) * 2);
-                    int parafusoDe8mm = (int)(descidas * 4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    diasProtecaoMecanica = (diasDescidas / 6);
+
+                    diasAnel = (((barraChatasdecidas + barraChatasanel) * 6) / 36);
+                    diasDescidas = (((barraChatasdecidas + barraChatasanel) * 6) / 48);
+                    
+
+
                 }
                 else if (material == "cobre")
                 {
@@ -57,8 +174,19 @@ namespace Sistema_Grifo.Calculadora
                     {
                         cobreAnel = 0;
                     }
+                    int cobre = cobredescidas + cobreAnel;
                     int afastador = cobredescidas + cobreAnel;
                     int parafusoDe6mm = afastador;
+                    diasAnel = ((cobredescidas + cobreAnel) / 36);
+                    diasDescidas = ((cobredescidas + cobreAnel) / 48);
+
+                    diasProtecaoMecanica = (diasDescidas / 6);
+                    idsmaterialdescidas = new List<int> { 5, 52, 76 };
+                    quantidsmaterialdescidas = new List<int> { cobre, afastador, parafusoDe6mm };
+                    total(idsmaterialdescidas, quantidsmaterialdescidas, "Material");
+
+
+
                 }
                 else if (material == "Cordoalha")
                 {
@@ -73,9 +201,20 @@ namespace Sistema_Grifo.Calculadora
                         cordoalhaAnel = 0;
                     }
                     int presilha = cordoalhaAnel + cordoalhaDescidas;
-
+                    int cordoalha = cordoalhaDescidas + cordoalhaAnel;
                     int parafusoDe6mm = presilha;
                     int parafusoDe8mm = (int)(descidas * 4);
+                    diasAnel = ((cordoalhaDescidas + cordoalhaAnel) / 36);
+                    diasDescidas = ((cordoalhaDescidas + cordoalhaAnel) / 48);
+
+                    diasProtecaoMecanica = (diasDescidas / 6);
+
+                    idsmaterialdescidas = new List<int> { 8, 53, 75, 76 };
+                    quantidsmaterialdescidas = new List<int> { cordoalha, presilha, parafusoDe6mm, parafusoDe8mm };
+                    total(idsmaterialdescidas, quantidsmaterialdescidas, "Material");
+
+
+
                 }
                 else if (material == "Rebar")
                 {
@@ -89,40 +228,89 @@ namespace Sistema_Grifo.Calculadora
                     {
                         rebarAnel = 0;
                     }
+                    int rebar = rebarDescidas + rebarAnel;
                     int clips = (rebarAnel + rebarDescidas) * 3;
                     int aterrainsert = descidas * 2;
+                    diasAnel = anelDeEquilibrio;
+                    diasDescidas = (int)(alturaSpda / 2.88);
+                    idsmaterialdescidas = new List<int> { 2, 24, 1 };
+                    quantidsmaterialdescidas = new List<int> { rebar, clips, aterrainsert };
+                    total(idsmaterialdescidas, quantidsmaterialdescidas, "Material");
+
+
                 }
+
+
+
+
             }
+
+
+        }
+        public void maoDeObra(string material)
+        {
+            var consulta = new Consulta();
+            idsMaodeObra = new List<int> { 15, 16 };
+            consulta.inserir(idsMaodeObra, material, "Mao de obra");
         }
 
-        public void aterramento()
+        public void aterramento(float perimetroSpda, float alturaSpda, string material, string np)
         {
+            var consulta = new Consulta();
             using (UserControl2 u = new UserControl2())
             {
-                string material = u.cbmaterial.Text;
-                float perimetroSpda = (float)u.nudperimetro.Value;
-                var descidas = quantDescidas.quantDescidas().Descidas;
-                var anelDeEquilibrio = quantDescidas.quantDescidas().AnelDeEquilibrio;
+                int descidas = 0;
+                int anelDeEquilibrio = 0;
+
+                if (np.Equals("1") || np.Equals("2"))
+                {
+                    descidas = (int)perimetroSpda / 12;
+                    anelDeEquilibrio = (int)((alturaSpda / 10) - 1);
+                }
+                else if (np.Equals("3"))
+                {
+                    descidas = (int)perimetroSpda / 18;
+                    anelDeEquilibrio = (int)(alturaSpda / 15 - 1);
+                }
+                else if (np.Equals("4"))
+                {
+
+                    descidas = (int)perimetroSpda / 24;
+                    anelDeEquilibrio = (int)(alturaSpda / 20 - 1);
+                }
+
 
                 if (material == "Barra chata" || material == "Cordoalha" || material == "cobre")
                 {
                     int cordoalha = descidas * 4;
                     int clips = cordoalha;
+                    idsmaterialaterramento = new List<int> { 9, 24 };
+
+                    quantidsmaterialdescidas = new List<int> { cordoalha, clips };
+                    total(idsmaterialaterramento, quantidsmaterialdescidas, "Material");
+
+
+
                 }
                 else if (material == "rebar")
                 {
                     int rebar = descidas * 12;
                     int clips = rebar * 3;
+                    idsmaterialaterramento = new List<int> { 3, 24 };
+                    quantidsmaterialdescidas = new List<int> { rebar, clips };
+                    total(idsmaterialaterramento, quantidsmaterialdescidas, "Material");
+
                 }
+                diasAterramento = descidas / 6;
             }
         }
-        public void Captor()
+        public void Captor(float perimetroSpda, float alturaSpda, string material, float perimetrocaptor)
         {
+            var consulta = new Consulta();
             using (UserControl2 u = new UserControl2())
+            using (AppDbcontext context = new AppDbcontext())
             {
-                string material = u.cbmaterial.Text;
-                float perimetroSpda = (float)u.nudperimetro.Value;
-                float perimetrocaptor = (float)u.nudpcaptor.Value;
+
 
                 if (material == "Barra chata" || material == "Cordoalha" || material == "Rebar")
                 {
@@ -131,6 +319,12 @@ namespace Sistema_Grifo.Calculadora
                     int mastro = 1;
                     int vedaCalha = (int)(perimetrocaptor * 0.03);
                     int parafusoDe6mm = barraChatas * 8;
+                    idsmaterialCaptor = new List<int> { 42, 59, 68, 39 };
+
+                    diasCaptor = ((barraChatas * 6) / 108);
+                    quantidsmaterialdescidas = new List<int> { barraChatas, miniMastro, mastro, vedaCalha, parafusoDe6mm };
+                    total(idsmaterialCaptor, quantidsmaterialdescidas, "Material");
+
                 }
                 else if (material == "Cobre")
                 {
@@ -139,11 +333,56 @@ namespace Sistema_Grifo.Calculadora
                     int mastro = 1;
                     int vedaCalha = (int)(perimetrocaptor * 0.03);
                     int parafusoDe6mm = cobre;
+                    idsmaterialCaptor = new List<int> { 42, 59, 68, 39 };
+                    quantidsmaterialdescidas = new List<int> { cobre, afastador, mastro, vedaCalha, parafusoDe6mm };
+                    total(idsmaterialCaptor, quantidsmaterialdescidas, "Material");
+
+                    diasCaptor = (cobre / 108);
                 }
+
             }
         }
+        public void total(List<int> lista, List<int> quantidades, string itemselecionado)
+        {
+            var consulta = new Consulta();
+            HashSet<int> uniqueIds = new HashSet<int>(lista);
+
+            using (AppDbcontext context = new AppDbcontext())
+            {
+                List<object> dados = new List<object>();
+
+                foreach (int id in uniqueIds)
+                {
+                    dynamic result = consulta.SelectGeralResult(id);
+                    dados.AddRange(result);
+                }
+
+                var materiais = from item in dados
+                                from quantidade in quantidades
+                                let valorUnidade = item.valor_unidade
+                                let valorTotal = quantidade * valorUnidade
+                                select new TabelaTemporaria
+                                {
+                                    descricao = item.descricao,
+                                    valor = valorUnidade,
+                                    quantidade = quantidade,
+                                    valorTotal = valorTotal,
+                                    CategoriaID = item.CategoriaID,
+                                };
+
+                context.tabelaTemporarias.AddRange(materiais);
+                context.SaveChanges();
+            }
+        }
+
+
+
     }
 }
+
+    
+
+
 
 
 

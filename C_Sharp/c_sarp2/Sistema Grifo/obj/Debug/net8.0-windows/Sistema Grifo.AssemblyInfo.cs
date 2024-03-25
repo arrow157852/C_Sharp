@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sistema Grifo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c723bdc2dd1759154a950945337ba98d54dc537")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49eb72cf5f84120b5f7faa19b14b5c383365acc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sistema Grifo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sistema Grifo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

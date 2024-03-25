@@ -39,6 +39,27 @@ namespace Sistema_Grifo.Migrations
                     b.ToTable("custosdiversos", (string)null);
                 });
 
+            modelBuilder.Entity("Sistema_Grifo.Modelo.Geralresult", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoriaID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("item")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<float>("valor_unidade")
+                        .HasColumnType("float");
+
+                    b.HasKey("id");
+
+                    b.ToTable("geralresult", (string)null);
+                });
+
             modelBuilder.Entity("Sistema_Grifo.Modelo.MaoDeObra", b =>
                 {
                     b.Property<int>("cargosID")
@@ -105,7 +126,7 @@ namespace Sistema_Grifo.Migrations
 
                     b.HasKey("temporarioID");
 
-                    b.ToTable("descricao", (string)null);
+                    b.ToTable("tabelatemporaria", (string)null);
                 });
 #pragma warning restore 612, 618
         }
