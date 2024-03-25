@@ -162,19 +162,7 @@ namespace Sistema_Grifo.Calculadora
             }
         }
 
-        public object SelectGeralResult(int id)
-        {
-
-            using (AppDbcontext context = new AppDbcontext())
-            {
-                var result = context.GeralResults
-                             .Where(m => m.id == id)
-                             .Select(m => new { descricao = m.item, m.valor_unidade, m.CategoriaID }).ToList();
-               
-                
-                return result;
-            }
-        }
+       
     }
 }
 

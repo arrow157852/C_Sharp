@@ -344,36 +344,43 @@ namespace Sistema_Grifo.Calculadora
         }
         public void total(List<int> lista, List<int> quantidades, string itemselecionado)
         {
-            var consulta = new Consulta();
-            HashSet<int> uniqueIds = new HashSet<int>(lista);
-
             using (AppDbcontext context = new AppDbcontext())
             {
-                List<object> dados = new List<object>();
+                // Consulta os materiais selecionados com base na lista de IDs
+                var materiaisSelecionados = context.GeralResults
+                                                .Where(m => lista.Contains(m.id))
+                                                .ToList();
 
-                foreach (int id in uniqueIds)
+                // Verifica se há materiais selecionados
+                if (materiaisSelecionados.Any())
                 {
-                    dynamic result = consulta.SelectGeralResult(id);
-                    dados.AddRange(result);
+                    // Calcula o valor total para cada material selecionado
+                    var materiaisComValorTotal = from material in materiaisSelecionados
+                                                 join quantidade in quantidades.Select((q, index) => new { Quantidade = q, Index = index })
+                                                 on material.id equals quantidade.Index into q
+                                                 from quantidade in q.DefaultIfEmpty()
+                                                 let valorTotal = quantidade == null ? 0 : quantidade.Quantidade * material.valor_unidade
+                                                 select new TabelaTemporaria
+                                                 {
+                                                     descricao = material.item,
+                                                     valor = material.valor_unidade,
+                                                     quantidade = quantidade == null ? 0 : quantidade.Quantidade,
+                                                     valorTotal = valorTotal,
+                                                     CategoriaID = material.CategoriaID
+                                                 };
+
+                    // Adiciona os materiais com valor total ao contexto e salva as alterações
+                    context.tabelaTemporarias.AddRange(materiaisComValorTotal);
+                    context.SaveChanges();
                 }
-
-                var materiais = from item in dados
-                                from quantidade in quantidades
-                                let valorUnidade = item.valor_unidade
-                                let valorTotal = quantidade * valorUnidade
-                                select new TabelaTemporaria
-                                {
-                                    descricao = item.descricao,
-                                    valor = valorUnidade,
-                                    quantidade = quantidade,
-                                    valorTotal = valorTotal,
-                                    CategoriaID = item.CategoriaID,
-                                };
-
-                context.tabelaTemporarias.AddRange(materiais);
-                context.SaveChanges();
+                else
+                {
+                    Console.WriteLine("Nenhum material foi encontrado com os IDs fornecidos.");
+                }
             }
         }
+
+
 
 
 
