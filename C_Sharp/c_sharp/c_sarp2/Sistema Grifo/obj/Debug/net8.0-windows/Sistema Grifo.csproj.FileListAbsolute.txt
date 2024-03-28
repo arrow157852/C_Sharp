@@ -1,0 +1,133 @@
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Sistema Grifo.exe
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Sistema Grifo.deps.json
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Sistema Grifo.runtimeconfig.json
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Sistema Grifo.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Sistema Grifo.pdb
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Humanizer.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\MySql.EntityFrameworkCore.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\Serilog.Sinks.Console.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.csproj.AssemblyReference.cache
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema_Grifo.Form1.resources
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema_Grifo.Properties.Resources.resources
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema_Grifo.UserControl1.resources
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema_Grifo.UserControl2.resources
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.csproj.GenerateResource.cache
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.GeneratedMSBuildEditorConfig.editorconfig
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.AssemblyInfoInputs.cache
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.AssemblyInfo.cs
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.csproj.CoreCompileInputs.cache
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.sourcelink.json
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema .F8CF9B42.Up2Date
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\refint\Sistema Grifo.dll
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.pdb
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\Sistema Grifo.genruntimeconfig.cache
+C:\programacao\C_Sharp\C_Sharp\c_sharp\c_sarp2\Sistema Grifo\obj\Debug\net8.0-windows\ref\Sistema Grifo.dll
