@@ -1,141 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\",
+  "WorkspaceRootPath": "C:\\programacao\\C_Sharp\\C_Sharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|c:\\programacao\\c_sharp\\c_sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\calculadora\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\calculadora\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\calculadora\\calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\calculadora\\calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\calculadora\\calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\modelo\\tabelatemporaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\tabelatemporaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\calculadora\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\calculadora\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:Sistema Grifo\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bielh\\AppData\\Local\\Temp\\.vsdbgsrc\\8ea9c8489ba951f18ab5806bb012b934a87ccb3c\\ApplicationConfiguration.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\modelo\\geralresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\geralresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:Sistema Grifo\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\contexto\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|c:\\programacao\\c_sharp\\c_sharp\\sistema grifo\\contexto\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\contexto\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\modelo\\maodeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\maodeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\modelo\\tabelatemporaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\tabelatemporaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\modelo\\diversos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\diversos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\modelo\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\modelo\\configuracoesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\configuracoesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\modelo\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240321222612_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\modelo\\geralresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\geralresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155901_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sistema Grifo\\Migrations\\20240320155901_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\modelo\\diversos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\modelo\\diversos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155740_sexte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Migrations\\20240328184058_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sistema Grifo\\Migrations\\20240328184058_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240319162738_sextafeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\usercontrol2.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\usercontrol2.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\sistema grifo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\sistema grifo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\sistema grifo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\sistema grifo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:Sistema Grifo\\Form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema grifo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240319193754_sextFeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sistema Grifo\\Migrations\\20240319193754_sextFeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\sistema grifo\\migrations\\20240321190132_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema grifo\\migrations\\20240321190132_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240322180432_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:Sistema Grifo\\Migrations\\20240322180432_sexta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|C:\\programacao\\C_Sharp\\C_Sharp\\sistema grifo\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2306EE5-EA3F-460C-804D-1265CFBB6751}|Sistema Grifo\\Sistema Grifo.csproj|solutionrelative:sistema grifo\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -145,17 +77,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Properties\\Resources.Designer.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "Sistema Grifo\\Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Properties\\Resources.Designer.cs",
               "RelativeToolTip": "Sistema Grifo\\Properties\\Resources.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T14:40:49.757Z",
               "IsPinned": true
@@ -166,223 +98,174 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAKgSAAAAAAAAAAAhwLUSAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-03-06T20:02:34.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Calculos.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Calculadora\\Calculos.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Calculadora\\Calculos.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Calculadora\\Calculos.cs",
-              "RelativeToolTip": "Sistema Grifo\\Calculadora\\Calculos.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAwwJQAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:36:45.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UserControl2.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl2.cs",
               "RelativeDocumentMoniker": "Sistema Grifo\\UserControl2.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl2.cs",
               "RelativeToolTip": "Sistema Grifo\\UserControl2.cs",
-              "ViewState": "AQIAALsAAAAAAAAAAAAuwMwAAAALAAAA",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAMwHYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T19:59:40.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControl1.cs [Projeto]",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl1.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.cs [Projeto]",
-              "RelativeToolTip": "Sistema Grifo\\UserControl1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:56:22.161Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserControl1.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl1.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.cs",
-              "RelativeToolTip": "Sistema Grifo\\UserControl1.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwC4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:56:26.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Program.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Program.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Program.cs",
-              "RelativeToolTip": "Sistema Grifo\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T21:38:01.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControl2.cs [Projeto]",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl2.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.cs [Projeto]",
-              "RelativeToolTip": "Sistema Grifo\\UserControl2.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T22:18:08.349Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Consulta.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Calculadora\\Consulta.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Calculadora\\Consulta.cs",
               "RelativeDocumentMoniker": "Sistema Grifo\\Calculadora\\Consulta.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Calculadora\\Consulta.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Calculadora\\Consulta.cs",
               "RelativeToolTip": "Sistema Grifo\\Calculadora\\Consulta.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAiwLoAAAAMAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAewHwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T17:14:17.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TabelaTemporaria.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
-              "RelativeToolTip": "Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "DocumentIndex": 1,
+              "Title": "Calculos.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Calculadora\\Calculos.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Calculadora\\Calculos.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Calculadora\\Calculos.cs",
+              "RelativeToolTip": "Sistema Grifo\\Calculadora\\Calculos.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAwwIoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T16:01:15.222Z",
+              "WhenOpened": "2024-03-19T15:36:45.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Form1.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.cs",
-              "RelativeToolTip": "Sistema Grifo\\Form1.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwBwAAAAIAAAA",
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl1.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl1.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl1.cs",
+              "RelativeToolTip": "Sistema Grifo\\UserControl1.cs",
+              "ViewState": "AQIAAO0BAAAAAAAAAAAswP4BAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T13:50:22.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AppDbcontext.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Contexto\\AppDbcontext.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Contexto\\AppDbcontext.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Contexto\\AppDbcontext.cs",
-              "RelativeToolTip": "Sistema Grifo\\Contexto\\AppDbcontext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T19:14:26.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MaoDeObra.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\MaoDeObra.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\MaoDeObra.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\MaoDeObra.cs",
-              "RelativeToolTip": "Sistema Grifo\\Modelo\\MaoDeObra.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T15:55:12.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Form1.Designer.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.Designer.cs",
-              "RelativeToolTip": "Sistema Grifo\\Form1.Designer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAawBQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T13:50:58.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserControl2.Designer.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.Designer.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl2.Designer.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.Designer.cs",
-              "RelativeToolTip": "Sistema Grifo\\UserControl2.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOgBAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T16:47:25.729Z",
+              "WhenOpened": "2024-03-19T15:56:26.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "20240322180432_sexta.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240322180432_sexta.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Migrations\\20240322180432_sexta.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240322180432_sexta.cs",
-              "RelativeToolTip": "Sistema Grifo\\Migrations\\20240322180432_sexta.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UserControl2.cs [Projeto]",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl2.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl2.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl2.cs [Projeto]",
+              "RelativeToolTip": "Sistema Grifo\\UserControl2.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T18:04:33.246Z"
+              "WhenOpened": "2024-03-28T17:21:08.104Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAKgSAAAAAAAAAAAhwLUSAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-06T20:02:34.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserControl1.cs [Projeto]",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl1.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl1.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\UserControl1.cs [Projeto]",
+              "RelativeToolTip": "Sistema Grifo\\UserControl1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T18:08:36.917Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Form1.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Form1.cs",
+              "RelativeToolTip": "Sistema Grifo\\Form1.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T13:50:22.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TabelaTemporaria.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
+              "RelativeToolTip": "Sistema Grifo\\Modelo\\TabelaTemporaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:01:15.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Form1.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Sistema Grifo\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:34:24.912Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbcontext.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Contexto\\AppDbcontext.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Contexto\\AppDbcontext.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Contexto\\AppDbcontext.cs",
+              "RelativeToolTip": "Sistema Grifo\\Contexto\\AppDbcontext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwBoAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:14:26.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ApplicationConfiguration.g.cs",
-              "DocumentMoniker": "C:\\Users\\bielh\\AppData\\Local\\Temp\\.vsdbgsrc\\8ea9c8489ba951f18ab5806bb012b934a87ccb3c\\ApplicationConfiguration.g.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\bielh\\AppData\\Local\\Temp\\.vsdbgsrc\\8ea9c8489ba951f18ab5806bb012b934a87ccb3c\\ApplicationConfiguration.g.cs",
-              "ToolTip": "C:\\Users\\bielh\\AppData\\Local\\Temp\\.vsdbgsrc\\8ea9c8489ba951f18ab5806bb012b934a87ccb3c\\ApplicationConfiguration.g.cs [Somente Leitura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\bielh\\AppData\\Local\\Temp\\.vsdbgsrc\\8ea9c8489ba951f18ab5806bb012b934a87ccb3c\\ApplicationConfiguration.g.cs [Somente Leitura]",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Configuracoesapp.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Configuracoesapp.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\Configuracoesapp.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Configuracoesapp.cs",
+              "RelativeToolTip": "Sistema Grifo\\Modelo\\Configuracoesapp.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T17:52:19.932Z"
+              "WhenOpened": "2024-03-28T17:18:56.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Material.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\Material.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Material.cs",
+              "RelativeToolTip": "Sistema Grifo\\Modelo\\Material.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:31:04.492Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserControl1.Designer.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.Designer.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl1.Designer.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.Designer.cs",
-              "RelativeToolTip": "Sistema Grifo\\UserControl1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T17:23:14.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "Geralresult.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\Geralresult.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Geralresult.cs",
               "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\Geralresult.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\Geralresult.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Geralresult.cs",
               "RelativeToolTip": "Sistema Grifo\\Modelo\\Geralresult.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,191 +273,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Form1.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Sistema Grifo\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T14:34:24.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserControl1.resx",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.resx",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl1.resx",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl1.resx",
-              "RelativeToolTip": "Sistema Grifo\\UserControl1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-23T19:28:10.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "Diversos.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\Diversos.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Diversos.cs",
               "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\Diversos.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\Diversos.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Modelo\\Diversos.cs",
               "RelativeToolTip": "Sistema Grifo\\Modelo\\Diversos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T16:01:17.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Material.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\Material.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Modelo\\Material.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Modelo\\Material.cs",
-              "RelativeToolTip": "Sistema Grifo\\Modelo\\Material.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T15:31:04.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20240321222612_sexta.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240321222612_sexta.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\c_sarp2\\Sistema Grifo\\Migrations\\20240321222612_sexta.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240321222612_sexta.cs",
-              "RelativeToolTip": "..\\..\\..\\c_sarp2\\Sistema Grifo\\Migrations\\20240321222612_sexta.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T22:26:12.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20240321190132_sexta.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240321190132_sexta.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Migrations\\20240321190132_sexta.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240321190132_sexta.cs",
-              "RelativeToolTip": "Sistema Grifo\\Migrations\\20240321190132_sexta.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T19:01:32.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20240320155901_sexta.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155901_sexta.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Migrations\\20240320155901_sexta.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155901_sexta.cs",
-              "RelativeToolTip": "Sistema Grifo\\Migrations\\20240320155901_sexta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:59:01.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20240320155740_sexte.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155740_sexte.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155740_sexte.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155740_sexte.cs",
-              "RelativeToolTip": "..\\..\\..\\c_sarp2\\Sistema Grifo\\Migrations\\20240320155740_sexte.cs",
+              "DocumentIndex": 15,
+              "Title": "20240328184058_sexta.cs",
+              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Migrations\\20240328184058_sexta.cs",
+              "RelativeDocumentMoniker": "Sistema Grifo\\Migrations\\20240328184058_sexta.cs",
+              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\Sistema Grifo\\Migrations\\20240328184058_sexta.cs",
+              "RelativeToolTip": "Sistema Grifo\\Migrations\\20240328184058_sexta.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:57:40.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AppDbcontextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\AppDbcontextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Migrations\\AppDbcontextModelSnapshot.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\AppDbcontextModelSnapshot.cs",
-              "RelativeToolTip": "Sistema Grifo\\Migrations\\AppDbcontextModelSnapshot.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:55:57.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20240319193754_sextFeira.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240319193754_sextFeira.cs",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Migrations\\20240319193754_sextFeira.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240319193754_sextFeira.cs",
-              "RelativeToolTip": "Sistema Grifo\\Migrations\\20240319193754_sextFeira.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAYwHUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T19:37:55.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20240319162738_sextafeira.cs",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240319162738_sextafeira.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\c_sarp2\\Sistema Grifo\\Migrations\\20240319162738_sextafeira.cs",
-              "ToolTip": "C:\\programacao\\C_Sharp\\c_sarp2\\Sistema Grifo\\Migrations\\20240319162738_sextafeira.cs",
-              "RelativeToolTip": "..\\..\\..\\c_sarp2\\Sistema Grifo\\Migrations\\20240319162738_sextafeira.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:27:38.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Properties\\Resources.resx",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Properties\\Resources.resx",
-              "RelativeToolTip": "Sistema Grifo\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-13T15:39:25.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserControl2.resx",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.resx",
-              "RelativeDocumentMoniker": "Sistema Grifo\\UserControl2.resx",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\UserControl2.resx",
-              "RelativeToolTip": "Sistema Grifo\\UserControl2.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-13T14:12:26.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Sistema Grifo.csproj",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Sistema Grifo.csproj",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Sistema Grifo.csproj",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Sistema Grifo.csproj",
-              "RelativeToolTip": "Sistema Grifo\\Sistema Grifo.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-01T13:50:49.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Sistema Grifo",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Sistema Grifo.csproj",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Sistema Grifo.csproj",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Sistema Grifo.csproj",
-              "RelativeToolTip": "Sistema Grifo\\Sistema Grifo.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-09T23:01:50.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.resx",
-              "RelativeDocumentMoniker": "Sistema Grifo\\Form1.resx",
-              "ToolTip": "C:\\programacao\\C_Sharp\\C_Sharp\\c_sharp\\c_sarp2\\Sistema Grifo\\Form1.resx",
-              "RelativeToolTip": "Sistema Grifo\\Form1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-01T13:50:54.447Z"
+              "WhenOpened": "2024-03-28T18:40:58.345Z"
             }
           ]
         }

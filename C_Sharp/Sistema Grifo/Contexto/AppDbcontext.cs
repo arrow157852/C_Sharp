@@ -4,6 +4,7 @@ using MySql.Data.MySqlClient;
 using Sistema_Grifo.Modelo;
 using System;
 using System.Collections.Generic;
+using System.Configuration.Provider;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -20,9 +21,12 @@ namespace Sistema_Grifo.contexto
         public DbSet<Geralresult> GeralResults { get; set; }
 
         public DbSet<TabelaTemporaria> tabelaTemporarias { get; set; }
+        public DbSet<Configuracoesapp> Configuracoesapps { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("Server=localhost;Port=3306;Database=grifo;Uid=root;Pwd=1578");
+           optionsBuilder.UseSqlServer("Data Source=NBCOMERCIAL;Initial Catalog=sistema;Integrated Security=True", options =>
+            options.EnableRetryOnFailure());
+
             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -31,12 +35,14 @@ namespace Sistema_Grifo.contexto
 
             modelBuilder.Entity<Diversos>().HasKey(c => c.CustoID);
             modelBuilder.Entity<TabelaTemporaria>().HasKey(c => c.temporarioID);
-            modelBuilder.Entity<Geralresult>().HasKey(c => c.id); 
+            modelBuilder.Entity<Geralresult>().HasKey(c => c.id);
+            
 
             modelBuilder.Entity<Material>().ToTable("planilha");
             modelBuilder.Entity<MaoDeObra>().ToTable("cargos");
             modelBuilder.Entity<Diversos>().ToTable("custosdiversos");
             modelBuilder.Entity<Geralresult>().ToTable("geralresult");
+            modelBuilder.Entity<Configuracoesapp>().ToTable("configuracoesapp");
 
 
             modelBuilder.Entity<TabelaTemporaria>().ToTable("tabelatemporaria");

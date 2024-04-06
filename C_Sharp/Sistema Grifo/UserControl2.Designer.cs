@@ -296,6 +296,7 @@
             nudimp.Name = "nudimp";
             nudimp.Size = new Size(41, 23);
             nudimp.TabIndex = 45;
+            nudimp.ValueChanged += nudimp_ValueChanged;
             // 
             // bcalc
             // 

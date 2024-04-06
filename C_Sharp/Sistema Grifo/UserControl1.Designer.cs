@@ -45,7 +45,6 @@
             label4 = new Label();
             label5 = new Label();
             numericUpDown1 = new NumericUpDown();
-            button4 = new Button();
             label15 = new Label();
             label12 = new Label();
             nudvalortotal = new NumericUpDown();
@@ -53,6 +52,7 @@
             cbcategoria = new ComboBox();
             label6 = new Label();
             gbTemporario = new GroupBox();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvconsulta).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudvalortotal).BeginInit();
@@ -234,20 +234,6 @@
             numericUpDown1.TextAlign = HorizontalAlignment.Center;
             numericUpDown1.ValueChanged += numericUpDown1_ValueChanged_2;
             // 
-            // button4
-            // 
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatAppearance.MouseOverBackColor = Color.Red;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(795, 3);
-            button4.Name = "button4";
-            button4.Size = new Size(42, 47);
-            button4.TabIndex = 17;
-            button4.Text = "x";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click_1;
-            // 
             // label15
             // 
             label15.AutoSize = true;
@@ -295,6 +281,7 @@
             cbcategoria.Name = "cbcategoria";
             cbcategoria.Size = new Size(91, 23);
             cbcategoria.TabIndex = 50;
+            cbcategoria.SelectedIndexChanged += cbcategoria_SelectedIndexChanged;
             // 
             // label6
             // 
@@ -320,6 +307,20 @@
             gbTemporario.TabIndex = 52;
             gbTemporario.TabStop = false;
             gbTemporario.Text = "Temporario";
+            // 
+            // button4
+            // 
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseOverBackColor = Color.Red;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button4.Location = new Point(808, 3);
+            button4.Name = "button4";
+            button4.Size = new Size(29, 37);
+            button4.TabIndex = 53;
+            button4.Text = "x";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click_2;
             // 
             // UserControl1
             // 
@@ -370,7 +371,6 @@
         private Label label4;
         private Label label5;
         public NumericUpDown numericUpDown1;
-        private Button button4;
         public ComboBox cbtabela;
         public TextBox tbconsulta;
         public TextBox tbid;
@@ -382,5 +382,6 @@
         public ComboBox cbcategoria;
         private Label label6;
         private GroupBox gbTemporario;
+        private Button button4;
     }
 }

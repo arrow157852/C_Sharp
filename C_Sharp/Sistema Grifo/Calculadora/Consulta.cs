@@ -118,6 +118,7 @@ namespace Sistema_Grifo.Calculadora
                 {
 
                     var novoRegistro = new Geralresult();
+                    var registroTemp = new Configuracoesapp();
                     switch (tabela)
                     {
                         case "Material":
@@ -153,6 +154,7 @@ namespace Sistema_Grifo.Calculadora
                             }
                             break;
 
+
                         default:
                             // Trate aqui o caso em que o nome da tabela não é reconhecido
                             break;
@@ -161,37 +163,11 @@ namespace Sistema_Grifo.Calculadora
                 context.SaveChanges();
             }
         }
-        public void consultaTabelaTemporaria(NumericUpDown nudtotal, NumericUpDown nudimposto, NumericUpDown nudtotalimposto, NumericUpDown nudimp, NumericUpDown nudmmao, NumericUpDown nudmmaterial, NumericUpDown nudmargemmao, NumericUpDown nudmargemmaterial, NumericUpDown nudcomissao)
-        {
-            using (AppDbcontext context = new AppDbcontext())
-            {
-
-
-                float total = context.tabelaTemporarias.Sum(m => m.valorTotal);
-                nudtotal.Value = (decimal)total;
-
-                var totalmaodeobra = context.tabelaTemporarias.Where(m => m.CategoriaID == 1).Sum(m => m.valorTotal);
-                var totalmaterial = context.tabelaTemporarias.Where(m => m.CategoriaID == 2).Sum(m => m.valorTotal);
-
-                // Calculate nudmmao.Value and nudmmaterial.Value, ensure to handle division by zero if necessary
-                nudmmao.Value = totalmaodeobra == 0 ? 0 : (decimal)((((float)nudmargemmao.Value * totalmaodeobra) / 100));
-                nudmmaterial.Value = totalmaterial == 0 ? 0 : (decimal)((((float)nudmargemmaterial.Value * totalmaterial) / 100));
-
-                var totalscomissao = (float)(nudmmaterial.Value + nudmmao.Value);
-                var comissao = (((float)nudcomissao.Value * totalscomissao) / 100);
-
-                float imposto = (((float)nudimp.Value * (comissao+totalscomissao)) / 100);
-                nudimposto.Value = (decimal)imposto;
-
-                nudtotalimposto.Value = (decimal)((float)nudtotal.Value + (float)nudmargemmaterial.Value+ (float)nudmargemmao.Value+(float)nudimposto.Value);
-            }
-
-
-        }
-
-
+       
     }
 }
+
+
 
 
 

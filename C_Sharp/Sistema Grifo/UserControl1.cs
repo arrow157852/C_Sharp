@@ -4,6 +4,7 @@ using Sistema_Grifo.contexto;
 using Sistema_Grifo.Modelo;
 using System.Linq;
 using Sistema_Grifo.Calculadora;
+using Microsoft.EntityFrameworkCore;
 
 namespace Sistema_Grifo
 {
@@ -13,7 +14,7 @@ namespace Sistema_Grifo
         AppDbcontext context = new AppDbcontext();
         Consulta consulta = new Consulta();
         Calculos calc = new Calculos();
-        
+
 
 
         public UserControl1()
@@ -43,13 +44,13 @@ namespace Sistema_Grifo
             int quantidade = (int)nudquantidade.Value;
             string descricao = tbdescricao.Text.Trim();
             int tipo = 0;
-            
-            if (cbtabela.SelectedItem.ToString().Equals("Tabela Temporaia"))
+
+            if (cbtabela.SelectedItem.ToString().Equals("TabelaTemporaria"))
             {
                 string categoria = cbcategoria.SelectedItem.ToString();
 
 
-              
+
                 if (categoria == "Material")
                 {
                     tipo = 2;
@@ -72,70 +73,70 @@ namespace Sistema_Grifo
                 }
             }
 
-                using (var baseDeDados = new AppDbcontext())
+            using (var baseDeDados = new AppDbcontext())
+            {
+                float valor = (float)numericUpDown1.Value;
+                try
                 {
-                    float valor = (float)numericUpDown1.Value;
-                    try
+                    if (itemSelecionado == "Material")
                     {
-                        if (itemSelecionado == "Material")
+                        var material = new Material
                         {
-                            var material = new Material
-                            {
-                                material = descricao,
-                                valor_unidade = valor
-                            };
-                            baseDeDados.Materials.Add(material);
-                        }
-                        else if (itemSelecionado == "Mão de obra")
+                            material = descricao,
+                            valor_unidade = valor
+                        };
+                        baseDeDados.Materials.Add(material);
+                    }
+                    else if (itemSelecionado == "Mão de obra")
+                    {
+                        var maoDeObra = new MaoDeObra
                         {
-                            var maoDeObra = new MaoDeObra
-                            {
-                                Nome_cargo = descricao,
-                                valor_cargo = valor
-                            };
-                            baseDeDados.MaoDeObras.Add(maoDeObra);
-                        }
-                        else if (itemSelecionado == "Diversos")
+                            Nome_cargo = descricao,
+                            valor_cargo = valor
+                        };
+                        baseDeDados.MaoDeObras.Add(maoDeObra);
+                    }
+                    else if (itemSelecionado == "Diversos")
+                    {
+                        var diversos = new Diversos
                         {
-                            var diversos = new Diversos
-                            {
-                                Descricao = descricao,
-                                valor_diversos = valor
-                            };
-                            baseDeDados.Diversoss.Add(diversos);
-                        }
-                        else if (itemSelecionado == "TabelaTemporaria")
+                            Descricao = descricao,
+                            valor_diversos = valor
+                        };
+                        baseDeDados.Diversoss.Add(diversos);
+                    }
+                    else if (itemSelecionado == "TabelaTemporaria")
+                    {
+                        var tabelaTemporaria = new TabelaTemporaria
                         {
-                            var tabelaTemporaria = new TabelaTemporaria
-                            {
-                                descricao = descricao,
-                                valor = valor,
-                                quantidade = quantidade,
-                                valorTotal = valorTotal,
-                                CategoriaID = tipo
+                            descricao = descricao,
+                            valor = valor,
+                            quantidade = quantidade,
+                            valorTotal = valorTotal,
+                            CategoriaID = tipo
 
-                            };
+                        };
 
-                            baseDeDados.tabelaTemporarias.Add(tabelaTemporaria);
-                        }
-
-
-                        baseDeDados.SaveChanges();
-                        MessageBox.Show("Registro realizado com sucesso", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        baseDeDados.tabelaTemporarias.Add(tabelaTemporaria);
                     }
 
 
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Erro ao atualizar banco de dados: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        Console.WriteLine(ex.Message);
-                        Console.WriteLine(ex.StackTrace);
-                    }
+                    baseDeDados.SaveChanges();
+                    MessageBox.Show("Registro realizado com sucesso", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
-                consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
-                limpacampos();
-            
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao atualizar banco de dados: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                }
+            }
+
+            consulta.ConsultarDados(tbconsulta.Text, cbtabela.SelectedItem.ToString(), dgvconsulta);
+            limpacampos();
+
 
 
 
@@ -427,7 +428,7 @@ namespace Sistema_Grifo
             {
                 gbTemporario.Enabled = false;
             }
-           else  if (cbtabela.SelectedItem.Equals("TabelaTemporaria"))
+            else if (cbtabela.SelectedItem.Equals("TabelaTemporaria"))
             {
                 gbTemporario.Enabled = true;
             }
@@ -484,6 +485,30 @@ namespace Sistema_Grifo
                 nudquantidade.Text = row.Cells["quantidade"].Value.ToString();
                 nudvalortotal.Text = row.Cells["valorTotal"].Value.ToString();
             }
+        }
+
+        private void cbcategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_2(object sender, EventArgs e)
+        {
+            var geralresult = context.GeralResults.ToList();
+            var tabelTemporaria = context.tabelaTemporarias.ToList();
+            context.GeralResults.RemoveRange(geralresult);
+            context.tabelaTemporarias.RemoveRange(tabelTemporaria);
+            context.Configuracoesapps.RemoveRange(context.Configuracoesapps.ToList());
+            context.SaveChanges();
+            var totalRegistros = context.GeralResults.Count();
+            if (totalRegistros == 0)
+            {
+                // Esta parte pode variar dependendo do provedor de banco de dados
+                context.Database.ExecuteSqlRaw("DBCC CHECKIDENT ('geralresult', RESEED, 1);");
+                context.Database.ExecuteSqlRaw("DBCC CHECKIDENT ('tabelatemporaria', RESEED, 1);");
+                context.Database.ExecuteSqlRaw("DBCC CHECKIDENT ('configuracoesapp', RESEED, 1);");
+            }
+            Application.Exit();
         }
     }
 }
